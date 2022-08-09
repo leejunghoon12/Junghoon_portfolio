@@ -1,0 +1,402 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+
+@font-face {
+    font-family: 'TTTogether';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/TTTogetherA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    background-color: #111114;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+
+
+#header {
+    width: 100%;
+    height: 90px;
+    position: fixed;
+    background-color: #000;
+    z-index: 100;
+    border-bottom: 1px solid #fff;
+}
+
+.headerin {
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+
+}
+
+.hd_icon {
+    display: block;
+    position: absolute;
+    top: 5px;
+    right: 0;
+}
+
+.hicon {
+    display: flex;
+}
+
+.hicon li {
+    margin-left: 25px;
+}
+
+.hicon li a {
+    color: #fff;
+    font-size: 18px;
+}
+
+.hicon li:hover a {
+    color: #e2012d;
+}
+
+
+.hd_bot .logo {
+    position: absolute;
+    top: 30px;
+    left: 0px;
+}
+
+.hd_bot .logo img {
+    width: auto;
+    height: 35px;
+}
+
+.lang {
+    display: block;
+    display: flex;
+    position: absolute;
+    top: 40px;
+    right: 0;
+    font-family: 'TTTogether';
+}
+
+.lang li {
+    margin-left: 25px;
+}
+
+.lang li a {
+    color: #fff;
+}
+
+.lang li:hover a {
+    color: #e2012d;
+}
+
+.hd_bot .gnb {
+    display: block;
+    display: flex;
+    position: absolute;
+    top: 40px;
+    left: 150px;
+    font-family: 'TTTogether';
+}
+
+.hd_bot .gnb li {
+    margin-right: 30px;
+}
+
+.hd_bot .gnb li a.theme {
+    color: #fff;
+    position: relative;
+
+}
+
+.hd_bot .gnb li a.over {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+
+.hd_bot .gnb li:hover a.over {
+    opacity: 1;
+}
+
+.hd_bot .gnb li a.over2 {
+    position: absolute;
+    top: 0;
+    left: 80px;
+    opacity: 0;
+}
+
+.hd_bot .gnb li:hover a.over2 {
+    opacity: 1;
+}
+
+.hd_bot .gnb li a.over3 {
+    position: absolute;
+    top: 0;
+    left: 190px;
+    opacity: 0;
+}
+
+.hd_bot .gnb li:hover a.over3 {
+    opacity: 1;
+}
+
+.hd_bot .gnb li a.over4 {
+    position: absolute;
+    top: 0;
+    left: 300px;
+    opacity: 0;
+}
+
+.hd_bot .gnb li:hover a.over4 {
+    opacity: 1;
+}
+
+.hd_bot .gnb li a.over5 {
+    position: absolute;
+    top: 0;
+    left: 400px;
+    opacity: 0;
+}
+
+.hd_bot .gnb li:hover a.over5 {
+    opacity: 1;
+}
+
+.hd_bot .gnb li a.over6 {
+    position: absolute;
+    top: 0;
+    left: 505px;
+    opacity: 0;
+}
+
+.hd_bot .gnb li:hover a.over6 {
+    opacity: 1;
+}
+
+.hd_bot .gnb li a.over7 {
+    position: absolute;
+    top: 0;
+    left: 600px;
+    opacity: 0;
+}
+
+.hd_bot .gnb li:hover a.over7 {
+    opacity: 1;
+}
+
+
+
+.hd_bot .gnb li:hover a {
+    color: #e2012d;
+    opacity: 0;
+}
+
+
+.hd_bot .gnb li.on a {
+    color: #e2012d;
+}
+
+.hd_bot .gnb li.on {
+    color: #e2012d;
+}
+
+.openM {
+    display: none;
+}
+
+#banner {
+    width: 100%;
+    background-color: #e2012d;
+    margin-top: 30px;
+}
+
+.bannerin {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 10px;
+}
+
+.bannerin div {
+    width: 90px;
+    height: 90px;
+    margin: 0 auto;
+}
+
+.bannerin div img {
+    width: 100%;
+    height: auto;
+}
+
+#footer {
+    width: 100%;
+    padding-bottom: 20px;
+    background-color: #000;
+}
+
+.footerin {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.f_icon {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.f_icon li {
+    margin-right: 30px;
+    /* padding: 0 20px; */
+}
+
+.f_icon li:first-child {
+    margin-left: 30px;
+}
+
+.f_icon li a {
+    color: #fff;
+    font-size: 20px;
+}
+
+.f_icon li a:hover {
+    color: #e2012d;
+}
+
+/* .link {
+    display: flex;
+    justify-content: center;
+} */
+
+.link p {
+    color: #fff;
+    margin: 10px auto;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.link p:hover {
+    color: #e2012d;
+}
+
+.f_gnb {
+    display: flex;
+    /* justify-content: space-between; */
+    justify-content: center;
+    padding: 10px;
+}
+
+.f_gnb li {
+    margin-right: 30px;
+}
+
+.f_gnb li a {
+    color: #fff;
+    font-size: 16px;
+}
+
+
+.f_gnb li a:hover {
+    color: #e2012d;
+}
+
+.copy {
+    color: #fff;
+    font-size: 12px;
+    padding: 10px;
+    text-align: center;
+
+}
+
+::selection {
+    background-color: #e2012d;
+}
+
+.tit {
+    margin-bottom: 50px;
+}
+
+.tit h2 {
+    padding-bottom: 10px;
+    color: #fff;
+    font-size: 35px;
+    font-family: 'TTTogether';
+}
+
+.tit span {
+    display: block;
+    width: 186px;
+    height: 10px;
+    background-color: red;
+}
+
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 150px;
+    position: relative;
+}
+
+.container h3 {
+    text-align: center;
+    color: #fff;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.container img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 115px;
+    margin-left: -15px;
+    width: auto;
+    height: 50px;
+}
+
+.careers_list {
+    width: 100%;
+    height: 50px;
+    background-color: #e2012d;
+    margin-top: 130px;
+    color: #fff;
+    display: grid;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    line-height: 50px;
+}
+
+.careers_list h4 {
+    margin-left: 20px;
+}
+
+.careers_list a {
+    display: block;
+    width: 130px;
+    height: 30px;
+    background-color: #000;
+    line-height: 30px;
+    text-align: center;
+    margin-right: 20px;
+    font-size: 12px;
+}

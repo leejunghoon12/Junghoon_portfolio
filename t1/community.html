@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/community.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/f1d986bebb.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <title>COMMUNITY</title>
+</head>
+
+<body>
+    <div class="wrap">
+        <header id="header">
+            <div class="headerin">
+                <div class="hd_icon">
+                    <ul class="hicon">
+                        <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-youtube"></i></a></i></li>
+                        <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                    </ul>
+                </div>
+                <div class="hd_bot">
+                    <h1 class="logo"><a href="index.html"><img src="img/t1_Logo.png"></a></h1>
+                    <ul class="gnb">
+                        <li>
+                            <a href="teams.html" class="theme">TEAMS</a>
+                            <a href="teams.html" class="over">click Me</a>
+                        </li>
+                        <li>
+                            <a href="news.html" class="theme">NEWS</a>
+                            <a href="news.html" class="over2">click Me</a>
+                        </li>
+                        <li class="on">
+                            <a href="community.html" class="theme">COMMUNITY</a>
+                            <a href="community.html" class="over3">click Me</a>
+                        </li>
+                        <li>
+                            <a href="#" class="theme">T.E.A</a>
+                            <a href="#" class="over4">click Me</a>
+                        </li>
+                        <li>
+                            <a href="partners.html" class="theme">PARTNERS</a>
+                            <a href="partners.html" class="over5">click Me</a>
+                        </li>
+                        <li>
+                            <a href="#" class="theme">SHOP</a>
+                            <a href="#" class="over6">click Me</a>
+                        </li>
+                        <li>
+                            <a href="careers.html" class="theme">CAREERS</a>
+                            <a href="careers.html" class="over7">click Me</a>
+                        </li>
+                    </ul>
+                    <ul class="lang">
+                        <li><a href="#">EN</a></li>
+                        <li><a href="#">KO</a></li>
+                        <li><a href="#">ZH</a></li>
+                    </ul>
+                    <div class="openM"><a href="#"><i class="fa-solid fa-bars"></a></i></div>
+                </div>
+            </div>
+        </header>
+        <div class="container">
+            <div class="tit">
+                <h2>COMMUNITY</h2>
+                <span></span>
+            </div>
+            <div class="tab">
+                <div class="brandkits">
+                    <p>BRANDKITS</p>
+                </div>
+                <div class="wallpapers">
+                    <a href="#">WALLPAPERS</a>
+                </div>
+            </div>
+            <div class="logo_assets">
+                <h3 class="kit_name">T1 LOGO ASSETS</h3>
+                <a href="#">Download</a>
+            </div>
+        </div>
+
+        <section id="banner">
+            <div class="bannerin">
+                <div class="nike"><img src="bannerImg/nike.png"></div>
+                <div class="bmw"><img src="bannerImg/bmw.png"></div>
+                <div class="redbull"><img src="bannerImg/redbull.png"></div>
+                <div class="samsung"><img src="bannerImg/samsung.png"></div>
+                <div class="skt"><img src="bannerImg/SKT.png"></div>
+                <div class="hana"><img src="bannerImg/hana-bank.png"></div>
+                <div class="steel"><img src="bannerImg/steelseries.png"></div>
+                <div class="klevv"><img src="bannerImg/klevv.png"></div>
+                <div class="scret"><img src="bannerImg/Secret-Lab.png"></div>
+                <div class="omen"><img src="bannerImg/Omen.png"></div>
+                <div class="celebe"><img src="bannerImg/celebe.png"></div>
+                <div class="afreeca"><img src="bannerImg/afreecatv.png"></div>
+            </div>
+        </section>
+        <footer id="footer">
+            <div class="footerin">
+                <ul class="f_icon">
+                    <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-youtube"></i></a></i></li>
+                    <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                </ul>
+                <ul class="link">
+                    <p><a href="#">SK Square</a></p>
+                    <p><a href="#">Comcast Spectacor</a></p>
+                </ul>
+                <ul class="f_gnb">
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Legal Terms</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Cookie Policy</a></li>
+                </ul>
+                <p class="copy">
+                    COPYRIGHT @ 2022 SK Telecom CS T1 Co. ALL RIGHTS RESERVERED
+                </p>
+            </div>
+        </footer>
+        <script>
+
+            $('.hd_bot .gnb li').on('click', function () {
+                $(this).addClass('on').siblings().removeClass('on')
+            })
+
+            $('.text a').on('click', function (e) {
+                e.preventDefault();
+                $(this).next('.info').slideToggle();
+            })
+
+
+
+            AOS.init();
+
+        </script>
+</body>
+
+</html>

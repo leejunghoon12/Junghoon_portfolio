@@ -1,0 +1,939 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+
+@font-face {
+    font-family: 'GmarketSansBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#home {
+    width: 100%;
+    height: 100vh;
+}
+
+.gnb {
+    position: fixed;
+    top: 200px;
+    left: 50px;
+    z-index: 10;
+}
+
+.gnb li {
+    margin-top: 50px;
+}
+
+.gnb li a {
+    color: #1d64a6;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Audiowide', cursive;
+}
+
+.gnb li.on a {
+    color: #ffeb00;
+}
+
+#home h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 60px;
+    margin-top: -150px;
+    margin-left: -150px;
+    font-family: 'Audiowide', cursive;
+}
+
+#home p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 30px;
+    margin-top: 150px;
+    margin-left: -300px;
+    font-family: 'GmarketSansBold';
+}
+
+#home p span {
+    color: #1d64a6;
+    font-family: 'GmarketSansBold';
+    font-weight: bold;
+}
+
+#about {
+    width: 100%;
+    height: 100vh;
+    background-color: #bbdefb;
+    position: relative;
+}
+
+#about .aboutin {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.aboutin .left img {
+    width: auto;
+    height: 400px;
+}
+
+.aboutin .left dl {
+    font-family: 'GmarketSansBold';
+}
+
+.aboutin .left dt {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.aboutin .left dd {
+    font-size: 18px;
+    margin-top: 10px;
+    font-weight: bold;
+    font-family: 'GmarketSansMedium';
+}
+
+.aboutin .right div {
+    margin-top: 50px;
+}
+
+.aboutin .right div:first-child {
+    margin-top: 0;
+}
+
+.aboutin .right>span {
+    display: block;
+    width: 100%;
+    height: 5px;
+    background-color: #1d64a6;
+    margin-top: 30px;
+}
+
+.aboutin .right h3 {
+    font-size: 30px;
+    margin-bottom: 18px;
+}
+
+.aboutin .right p {
+    font-size: 16px;
+    margin-top: 18px;
+    font-family: 'GmarketSansMedium';
+}
+
+.aboutin .right p span {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'GmarketSansBold';
+}
+
+.aboutin .right .skill ul {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'GmarketSansBold';
+}
+
+.aboutin .right .skill ul li {
+    text-align: center;
+}
+
+#publishing .t1 {
+    height: 100vh;
+}
+
+.t1in {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.t1 .title {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 150px;
+    font-family: 'GmarketSansBold';
+}
+
+.t1 .title h2 {
+    font-size: 30px;
+}
+
+.t1 .title h2 span {
+    font-size: 20px;
+}
+
+.t1 .title img {
+    width: auto;
+    height: 80px;
+}
+
+.t1 .introduce {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.introduce .t1_left img {
+    width: auto;
+    height: 400px;
+}
+
+
+.introduce .t1_right .text p {
+    font-size: 22px;
+    margin-bottom: 10px;
+    font-family: 'GmarketSansMedium';
+}
+
+.introduce .t1_right .text p:nth-child(1) span {
+    margin-left: 35px;
+}
+
+.introduce .t1_right .text p:nth-child(2) span {
+    margin-left: 16px;
+}
+
+.introduce .t1_right .text p:nth-child(3) span {
+    margin-left: 48px;
+}
+
+.introduce .t1_right .text span {
+    font-family: 'GmarketSansBold';
+    margin-left: 20px;
+}
+
+.introduce .t1_right .text p:last-child span {
+    display: inline-block;
+    width: 80px;
+    height: 20px;
+    background-color: #e21e2f;
+    font-size: 0;
+    line-height: 35px;
+    margin-left: 36px;
+}
+
+.introduce .t1_right .text p:last-child span:nth-child(2) {
+    background-color: black;
+    margin-left: 10px;
+}
+
+.introduce .t1_right>p {
+    margin-top: 35px;
+    font-size: 18px;
+    font-family: 'GmarketSansBold';
+}
+
+.introduce .t1_right button {
+    margin-top: 30px;
+    background-color: transparent;
+    border: none;
+}
+
+.introduce .t1_right button a {
+    display: inline-block;
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 55px;
+    background-color: #1d64a6;
+    color: #fff;
+    font-size: 16px;
+    margin-right: 15px;
+    font-weight: bold;
+}
+
+.introduce .t1_right button a:last-child {
+    width: 180px;
+}
+
+/*********************************t1끝*************************/
+.nike {
+    height: 100vh;
+    background-color: #bbdefb;
+}
+
+.nikein {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.nike .title {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 150px;
+    font-family: 'GmarketSansBold';
+}
+
+.nike .title img {
+    width: auto;
+    height: 150px;
+    margin-top: -30px;
+}
+
+.nike .title h2 {
+    font-size: 30px;
+}
+
+.nike .title h2 span {
+    font-size: 20px;
+}
+
+.nike .introduce {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.introduce .nike_right img {
+    width: auto;
+    height: 400px;
+}
+
+.introduce .nike_left .text p {
+    font-size: 22px;
+    margin-bottom: 10px;
+    font-family: 'GmarketSansMedium';
+}
+
+.introduce .nike_left .text span {
+    font-family: 'GmarketSansBold';
+}
+
+.introduce .nike_left .text p:last-child span {
+    display: inline-block;
+    width: 80px;
+    height: 20px;
+    background-color: #757575;
+    font-size: 0;
+    line-height: 35px;
+}
+
+.introduce .nike_left .text p:nth-child(1) span {
+    margin-left: 35px;
+}
+
+.introduce .nike_left .text p:nth-child(2) span {
+    margin-left: 47px;
+}
+
+.introduce .nike_left .text p:nth-child(3) span {
+    margin-left: 35px;
+}
+
+.introduce .nike_left .text p:last-child span:nth-child(2) {
+    background-color: #999999;
+    margin-left: 10px;
+}
+
+.introduce .nike_left>p {
+    margin-top: 80px;
+    font-size: 18px;
+    font-family: 'GmarketSansBold';
+}
+
+.introduce .nike_left button {
+    margin-top: 30px;
+    background-color: transparent;
+    border: none;
+}
+
+.introduce .nike_left button a {
+    display: inline-block;
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 55px;
+    background-color: #1d64a6;
+    color: #fff;
+    font-size: 16px;
+    margin-right: 15px;
+    margin-top: 65px;
+    font-weight: bold;
+}
+
+.introduce .nike_left button a:last-child {
+    width: 195px;
+}
+
+/*******************************나이키 끝**************************/
+.kolon {
+    height: 100vh;
+}
+
+.kolonin {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.kolon .title {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 150px;
+    font-family: 'GmarketSansBold';
+}
+
+.kolon .title img {
+    width: auto;
+    height: 40px;
+}
+
+.kolon .title h2 {
+    font-size: 30px;
+}
+
+.kolon .title h2 span {
+    font-size: 20px;
+}
+
+.kolon .introduce {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.introduce .kolon_left img {
+    width: auto;
+    height: 400px;
+}
+
+.introduce .kolon_right .text p {
+    font-size: 22px;
+    margin-bottom: 10px;
+    font-family: 'GmarketSansMedium';
+}
+
+.introduce .kolon_right .text span {
+    font-family: 'GmarketSansBold';
+}
+
+.introduce .kolon_right .text p:last-child span {
+    display: inline-block;
+    width: 80px;
+    height: 20px;
+    background-color: #235018;
+    font-size: 0;
+    line-height: 35px;
+    margin-left: 48px;
+}
+
+.introduce .kolon_right .text p:nth-child(1) span {
+    margin-left: 48px;
+}
+
+.introduce .kolon_right .text p:nth-child(2) span {
+    margin-left: 29px;
+}
+
+.introduce .kolon_right .text p:nth-child(3) span {
+    margin-left: 60px;
+}
+
+.introduce .kolon_right .text p:last-child span:nth-child(2) {
+    background-color: #43a047;
+    margin-left: 10px;
+}
+
+.introduce .kolon_right .text p:last-child span:nth-child(3) {
+    background-color: #388e3c;
+    margin-left: 10px;
+}
+
+.introduce .kolon_right>p {
+    margin-top: 35px;
+    font-size: 18px;
+    font-family: 'GmarketSansBold';
+}
+
+.introduce .kolon_right button {
+    margin-top: 30px;
+    background-color: transparent;
+    border: none;
+}
+
+.introduce .kolon_right button a {
+    display: inline-block;
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 55px;
+    background-color: #1d64a6;
+    color: #fff;
+    font-size: 16px;
+    margin-right: 15px;
+    font-weight: bold;
+}
+
+.introduce .kolon_right button a:last-child {
+    width: 180px;
+}
+
+/***********************************코오롱끝********************/
+.hiver {
+    height: 100vh;
+    background-color: #bbdefb;
+}
+
+.hiverin {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.hiver .title {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 150px;
+    font-family: 'GmarketSansBold';
+}
+
+.hiver .title img {
+    width: auto;
+    height: 70px;
+}
+
+.hiver .title h2 {
+    font-size: 30px;
+}
+
+.hiver .title h2 span {
+    font-size: 20px;
+}
+
+.hiver .introduce {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.introduce .hiver_right img {
+    width: auto;
+    height: 400px;
+}
+
+.introduce .hiver_left .text p {
+    font-size: 22px;
+    margin-bottom: 10px;
+    font-family: 'GmarketSansMedium';
+}
+
+.introduce .hiver_left .text span {
+    font-family: 'GmarketSansBold';
+}
+
+.introduce .hiver_left .text p:last-child span {
+    display: inline-block;
+    width: 80px;
+    height: 20px;
+    background-color: #406eb8;
+    font-size: 0;
+    line-height: 35px;
+    margin-left: 47px;
+}
+
+.introduce .hiver_left .text p:nth-child(1) span {
+    margin-left: 46px;
+}
+
+.introduce .hiver_left .text p:nth-child(2) span {
+    margin-left: 27px;
+}
+
+.introduce .hiver_left .text p:nth-child(3) span {
+    margin-left: 59px;
+}
+
+.introduce .hiver_left>p {
+    margin-top: 30px;
+    font-size: 18px;
+    font-family: 'GmarketSansBold';
+}
+
+.introduce .hiver_left button {
+    margin-top: 10px;
+    background-color: transparent;
+    border: none;
+}
+
+.introduce .hiver_left button a {
+    display: inline-block;
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 55px;
+    background-color: #1d64a6;
+    color: #fff;
+    font-size: 16px;
+    margin-right: 15px;
+    margin-top: 65px;
+    font-weight: bold;
+}
+
+.introduce .hiver_left button a:last-child {
+    width: 195px;
+}
+
+/*********************hiver 끝**********************/
+.apple {
+    height: 100vh;
+}
+
+.applein {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.apple .title {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 150px;
+    font-family: 'GmarketSansBold';
+}
+
+.apple .title img {
+    width: auto;
+    height: 90px;
+    margin-top: -20px;
+}
+
+.apple .title h2 {
+    font-size: 30px;
+}
+
+.apple .title h2 span {
+    font-size: 20px;
+}
+
+.apple .introduce {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.introduce .apple_left img {
+    width: auto;
+    height: 400px;
+}
+
+.introduce .apple_right .text p {
+    font-size: 22px;
+    margin-bottom: 10px;
+    font-family: 'GmarketSansMedium';
+}
+
+.introduce .apple_right .text span {
+    font-family: 'GmarketSansBold';
+}
+
+.introduce .apple_right .text p:nth-child(1) span {
+    margin-left: 43px;
+}
+
+.introduce .apple_right .text p:nth-child(2) span {
+    margin-left: 56px;
+}
+
+.introduce .apple_right>p {
+    margin-top: 80px;
+    font-size: 18px;
+    font-family: 'GmarketSansBold';
+}
+
+.introduce .apple_right button {
+    margin-top: 30px;
+    background-color: transparent;
+    border: none;
+}
+
+.introduce .apple_right button a {
+    display: inline-block;
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 55px;
+    background-color: #1d64a6;
+    color: #fff;
+    font-size: 16px;
+    margin-right: 15px;
+    font-weight: bold;
+    margin-top: 70px;
+}
+
+/************************apple 끝*********************/
+.street {
+    height: 100vh;
+    background-color: #bbdefb;
+}
+
+.streetin {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.street .title {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 150px;
+    font-family: 'GmarketSansBold';
+}
+
+.street .title h2 {
+    font-size: 30px;
+}
+
+.street .title h2 span {
+    font-size: 20px;
+}
+
+.street .title img {
+    width: auto;
+    height: 40px;
+}
+
+.street .introduce {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.introduce .street_right img {
+    width: auto;
+    height: 400px;
+}
+
+.introduce .street_left .text p {
+    font-size: 22px;
+    margin-bottom: 10px;
+    font-family: 'GmarketSansMedium';
+}
+
+.introduce .street_left .text span {
+    font-family: 'GmarketSansBold';
+}
+
+.introduce .street_left .text p:nth-child(1) span {
+    margin-left: 43px;
+}
+
+.introduce .street_left .text p:nth-child(2) span {
+    margin-left: 56px;
+}
+
+.introduce .street_left>p {
+    margin-top: 80px;
+    font-size: 18px;
+    font-family: 'GmarketSansBold';
+}
+
+.introduce .street_left button {
+    margin-top: 30px;
+    background-color: transparent;
+    border: none;
+}
+
+.introduce .street_left button a {
+    display: inline-block;
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 55px;
+    background-color: #1d64a6;
+    color: #fff;
+    font-size: 16px;
+    margin-right: 15px;
+    font-weight: bold;
+    margin-top: 60px;
+}
+
+/***********************street 끝***************************/
+.appdesign {
+    height: 100vh;
+}
+
+.appdesignin {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.appdesign .title {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 150px;
+    font-family: 'GmarketSansBold';
+}
+
+.appdesign .title h2 {
+    font-size: 30px;
+}
+
+.appdesign .title h2 span {
+    font-size: 20px;
+}
+
+.appdesign .title img {
+    width: auto;
+    height: 70px;
+}
+
+.appdesign .introduce {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.introduce .gym_left img {
+    width: auto;
+    height: 400px;
+}
+
+.introduce .gym_right .text p {
+    font-size: 22px;
+    font-family: 'GmarketSansMedium';
+}
+
+.introduce .gym_right .text span {
+    font-family: 'GmarketSansBold';
+}
+
+.introduce .gym_right .text p:nth-child(1) span {
+    margin-left: 45px;
+}
+
+.introduce .gym_right .text p:nth-child(2) span {
+    margin-left: 27px;
+}
+
+.introduce .gym_right .text p:last-child span {
+    display: inline-block;
+    width: 80px;
+    height: 20px;
+    background-color: #00a8ff;
+    font-size: 0;
+    line-height: 35px;
+    margin-left: 45px;
+}
+
+.introduce .gym_right .text p:last-child span:nth-child(2) {
+    background-color: #ffeb00;
+    margin-left: 10px;
+}
+
+.introduce .gym_right>p {
+    margin-top: 30px;
+    font-size: 18px;
+    font-family: 'GmarketSansBold';
+}
+
+.introduce .gym_right button {
+    margin-top: 30px;
+    background-color: transparent;
+    border: none;
+}
+
+.introduce .gym_right button a {
+    display: inline-block;
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 55px;
+    background-color: #1d64a6;
+    color: #fff;
+    font-size: 16px;
+    margin-right: 15px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+/********************appdesign 끝******************/
+
+#contact {
+    height: 100vh;
+    background-color: #bbdefb;
+    position: relative;
+    font-family: 'GmarketSansBold';
+}
+
+.contactin {
+    width: 1200px;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.contactin p {
+    text-align: center;
+}
+
+.contactin p:first-child {
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+
+.contactin p:first-child span {
+    color: #1d64a6;
+    font-size: 36px;
+}
+
+.contactin ul li {
+    text-align: center;
+    font-size: 36px;
+    margin-top: 30px;
+}
+
+.contactin ul li .fa-envelope {
+    font-size: 30px;
+}
+
+.contactin ul li .fa-phone {
+    font-size: 30px;
+}
+
+.contactin p:nth-child(3) {
+    font-size: 26px;
+    margin-top: 30px;
+}
+
+.contactin p:last-child {
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+/***************contact 끝**************/
+
+.goTop {
+    width: 50px;
+    height: 50px;
+    background-color: #1d64a6;
+    text-align: center;
+    line-height: 50px;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    display: none;
+    cursor: pointer;
+}
+
+.goTop .fa-arrow-up {
+    font-size: 35px;
+    line-height: 50px;
+    color: #fff;
+}

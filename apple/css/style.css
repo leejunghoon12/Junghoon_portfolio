@@ -1,0 +1,894 @@
+@charset 'utf-8';
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* body{background-color: #fff;} */
+
+a {
+    text-decoration: none;
+    color: #f5f5f7;
+}
+
+ul li {
+    list-style: none;
+}
+
+.container {
+    width: 100%;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 940px 940px;
+    grid-template-rows: 550px 550px 550px;
+}
+
+.container>div>img {
+    width: 940px;
+    height: 550px;
+    object-fit: cover;
+}
+
+.header {
+    width: 100%;
+    height: 40px;
+    line-height: 25px;
+    background-color: #000;
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+}
+
+.header-wrap {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.header-menu {
+    width: 60%;
+    padding: 8px;
+    list-style: none;
+    font-size: 16px;
+}
+
+.menu-list {
+    display: flex;
+    justify-content: space-between;
+}
+.logo a{
+    color: #c5c5c5
+}
+.logo a:hover {
+    color: #fff;
+}
+
+
+.header-menu a {
+    color: #c5c5c5
+}
+
+.header-menu a:hover {
+    color: #fff;
+}
+.bag a{
+    color: #c5c5c5
+}
+.bag a:hover {
+    color: #fff;
+}
+
+.main {
+    margin-top: 45px;
+}
+
+.main-con {
+    width: 1200px;
+    height: 600px;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+.product {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.product img {
+    margin-top: 50px;
+    text-align: center;
+    width: 350px;
+}
+
+.product p {
+    font-size: 24px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.dark {
+    height: 650px;
+    background-image: url(../images/iphone3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.white {
+    height: 650px;
+    background-image: url(../images/airpods2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.dark-con {
+    width: 1200px;
+    height: 500px;
+    margin: 0 auto;
+}
+
+.container {
+    cursor: pointer;
+}
+
+.cover {
+    top: 0;
+    left: 0;
+    transform: translate(290px, 60px);
+    text-align: center;
+    letter-spacing: -1px;
+    font-weight: bold;
+    font-size: 35px;
+    color: white;
+}
+
+.white-cover {
+    top: 0;
+    left: 0;
+    transform: translate(480px, 20px);
+    text-align: center;
+    font-weight: bold;
+    font-size: 35px;
+    color: #000;
+}
+
+.mac-cover {
+    top: 0;
+    left: 0;
+    transform: translate(230px, -510px);
+    text-align: center;
+    letter-spacing: -1px;
+    font-size: 35px;
+}
+
+.watch6-cover {
+    top: 0;
+    left: 0;
+    transform: translate(100px, -500px);
+    text-align: center;
+    letter-spacing: -1px;
+    font-size: 35px;
+}
+
+.ipadair-cover {
+    top: 0;
+    left: 0;
+    transform: translate(250px, -550px);
+    text-align: center;
+    letter-spacing: -1px;
+    font-size: 35px;
+}
+
+.macmini-cover {
+    top: 0;
+    left: 0;
+    transform: translate(240px, -520px);
+    text-align: center;
+    letter-spacing: -1px;
+    font-size: 35px;
+}
+
+.watchse-cover {
+    top: 0;
+    left: 0;
+    transform: translate(-70px, -520px);
+    text-align: center;
+    letter-spacing: -1px;
+    font-size: 35px;
+}
+
+.ipadpro-cover {
+    top: 0;
+    left: 0;
+    transform: translate(450px, -520px);
+    text-align: center;
+    letter-spacing: -1px;
+    font-size: 35px;
+}
+
+.cover p {
+    margin-top: 10px;
+    font-size: 12px;
+    color: #ccc;
+}
+
+.com {
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+}
+
+.com>li {
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+.com a {
+    text-align: center;
+    color: #2997ff;
+}
+
+/* footer */
+.footer {
+    width: 100%;
+}
+
+.footer-content {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-wrap {
+    width: 100%;
+}
+
+.foter-menu ul li {
+    font-family: 'Poppins', sans-serif;
+    color: #515154;
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+.foter-menu {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.foter-menu>div {
+    margin-top: 10px;
+}
+
+.foter-menu a {
+    color: #000;
+}
+
+.foter-menu a:hover {
+    border-bottom: 1px solid #000;
+}
+
+
+.footer-bottom p {
+    font-size: 12px;
+}
+
+.footer-bottom a {
+    color: #06c;
+}
+
+.middle a {
+    vertical-align: middle;
+    margin-right: 30px;
+    color: #515154;
+    display: inline;
+}
+
+.middle a:hover {
+    border-bottom: 1px solid #000;
+}
+
+.middle a:last-child:after {
+    content: '!';
+}
+
+.right a {
+    color: #000;
+}
+
+
+.bar {
+    display: none;
+    position: absolute;
+    line-height: 40px;
+    right: 50%;
+    font-size: 24px;
+    color: #fff;
+}
+
+.mobile-menu {
+    display: none;
+    width: 100%;
+    text-align: start;
+    background-color: black;
+    position: absolute;
+    z-index: 9999;
+    font-size: 20px;
+}
+
+.mobile-menu>div {
+    display: none
+}
+
+.tab span {
+    font-weight: 700;
+    font-size: 12px;
+}
+
+.foter-menu>.tab {
+    display: block;
+}
+
+
+
+
+   @media screen and (max-width:800px) {
+    .header{
+        width: 100%;
+    }
+    .header-wrap {
+        width: 100%;
+    }
+
+    .menu-list li {
+        display: none;
+    }
+    .mobile-menu ul {
+        padding: 8px 24px;
+    }
+
+    .mobile-menu ul li {
+        padding-top: 10px;
+    }
+
+    .bar {
+        display: block;
+    }
+
+    .mobile-menu>div {
+        display: block;
+    }
+
+    .mobile-menu a {
+        color: #c5c5c5
+    }
+
+    .mobile-menu a:hover {
+        color: #fff;
+    }
+
+    .dark .dark-con {
+        width: 100%;
+    }
+
+    .cover {
+        width: 100%;
+        top: 0;
+        left: 0;
+        transform: translate(200px, 60px);
+        text-align: center;
+        font-weight: bold;
+        font-size: 35px;
+        color: white;
+    }
+
+    .white-cover {
+        width: 100%;
+        top: 0;
+        left: 0;
+        transform: translate(200px, 60px);
+        text-align: center;
+        font-weight: bold;
+        font-size: 35px;
+        color: #000;
+    }
+
+    .watch6-cover {
+        top: 0;
+        left: 0;
+        transform: translate(10px, -300px);
+        text-align: center;
+        letter-spacing: -1px;
+        font-size: 35px;
+    }
+
+    .ipadair-cover {
+        top: 0;
+        left: 0;
+        transform: translate(210px, -510px);
+        text-align: center;
+        letter-spacing: -1px;
+        font-size: 35px;
+    }
+
+    .mac-cover {
+        top: 0;
+        left: 0;
+        transform: translate(200px, -590px);
+        text-align: center;
+        letter-spacing: -1px;
+        font-size: 35px;
+    }
+
+    .ipadpro-cover {
+        top: 0;
+        left: 0;
+        transform: translate(200px, -700px);
+        text-align: center;
+        letter-spacing: -1px;
+        font-size: 35px;
+    }
+
+    .macmini-cover {
+        top: 0;
+        left: 0;
+        transform: translate(200px, -500px);
+        text-align: center;
+        letter-spacing: -1px;
+        font-size: 35px;
+    }
+
+    .main-con {
+        width: 100%;
+
+    }
+
+    .product {
+        width: 100%;
+    }
+
+    .main-con ul {
+        flex-direction: column;
+    }
+
+    .container {
+        display: grid;
+        grid-template-columns: 800px;
+        grid-template-rows: 300px;
+    }
+
+     .container>div>img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .coment {
+        width: 60%;
+    }
+
+    .footer {
+        width: 100%;
+    }
+
+    .footer-wrap {
+        width: 100%;
+    }
+
+    .foter-menu {
+        width: 100%;
+        margin-left: 15px;
+        flex-direction: column;
+        cursor: pointer;
+    }
+
+    .tab {
+        width: 95%;
+        font-size: 12px;
+        margin-top: 15px;
+        border-bottom: 1px solid #ccc;
+    }
+
+    .footer-bottom {
+        width: 100%;
+    }
+
+    .footer-middle>div {
+        margin-top: 10px;
+    }
+
+    .footer-middle {
+        flex-direction: column;
+    }
+
+    .footer-bottom p {
+        width: 60%;
+    }
+
+    .line {
+        display: none;
+    }
+
+    .show {
+        display: none;
+    }
+
+}   
+
+/* 테블릿 가로, 테블릿 세로 (해상도 768px ~ 1023px)*/
+   @media all and (min-width:768px) and (max-width:1023px){
+    .header{
+        width: 100%;
+    }
+    .header-wrap {
+        width: 100%;
+    }
+
+    .menu-list li {
+        display: none;
+    }
+    .mobile-menu ul {
+        padding: 8px 24px;
+    }
+
+    .mobile-menu ul li {
+        padding-top: 10px;
+    }
+
+    .bar {
+        display: block;
+    }
+
+    .mobile-menu>div {
+        display: block;
+    }
+
+    .mobile-menu a {
+        color: #c5c5c5
+    }
+
+    .mobile-menu a:hover {
+        color: #fff;
+    }
+
+    .dark .dark-con {
+        width: 100%;
+    }
+
+    .white-cover {
+        width: 100%;
+        top: 0;
+        left: 0;
+        transform: translate(250px, 60px);
+        text-align: center;
+        font-weight: bold;
+        font-size: 35px;
+        color: #000;
+    }
+
+    .cover {
+        width: 100%;
+        top: 0;
+        left: 0;
+        transform: translate(250px, 60px);
+        text-align: center;
+        font-weight: bold;
+        font-size: 35px;
+        color: white;
+    }
+    .watch6-cover {
+        top: 0;
+        left: 0;
+        transform: translate(10px, -400px);
+        text-align: center;
+        letter-spacing: -1px;
+        font-size: 35px;
+    }
+
+    .ipadair-cover {
+        top: 0;
+        left: 0;
+        transform: translate(280px, -600px);
+        text-align: center;
+        letter-spacing: -1px;
+        font-size: 35px;
+    }
+
+    .mac-cover {
+        top: 0;
+        left: 0;
+        transform: translate(280px, -680px);
+        text-align: center;
+        letter-spacing: -1px;
+        font-size: 35px;
+    }
+
+    .ipadpro-cover {
+        top: 0;
+        left: 0;
+        transform: translate(300px, -790px);
+        text-align: center;
+        letter-spacing: -1px;
+        font-size: 35px;
+    }
+
+    .macmini-cover {
+        top: 0;
+        left: 0;
+        transform: translate(250px, -600px);
+        text-align: center;
+        letter-spacing: -1px;
+        font-size: 35px;
+    }
+
+    
+    .watchse-cover {
+        top: 0;
+        left: 0;
+        transform: translate(-100px, -600px);
+        text-align: center;
+        letter-spacing: -1px;
+        font-size: 35px;
+    }
+    .main-con {
+        width: 100%;
+
+    }
+
+    .product {
+        width: 100%;
+    }
+
+    .main-con ul {
+        flex-direction: column;
+    }
+
+    .container {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 450px;
+    }
+
+     .container>div>img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .coment {
+        width: 80%;
+    }
+
+    .footer {
+        width: 100%;
+    }
+
+    .footer-wrap {
+        width: 100%;
+    }
+
+    .foter-menu {
+        width: 100%;
+        margin-left: 15px;
+        flex-direction: column;
+        cursor: pointer;
+    }
+
+    .tab {
+        width: 95%;
+        font-size: 12px;
+        margin-top: 15px;
+        border-bottom: 1px solid #ccc;
+    }
+
+    .footer-bottom {
+        width: 100%;
+    }
+
+    .footer-middle>div {
+        margin-top: 10px;
+    }
+
+    .footer-middle {
+        flex-direction: column;
+    }
+
+    .footer-bottom p {
+        width: 83%;
+    }
+
+    .line {
+        display: none;
+    }
+
+    .show {
+        display: none;
+    }
+}   
+
+/* 모바일 가로, 모바일 세로 (해상도 480px ~ 767px)*/
+  @media all and (max-width:767px){
+    .header{
+        width: 100%;
+    }
+    .header-wrap {
+        width: 100%;
+    }
+
+    .menu-list li {
+        display: none;
+    }
+    .mobile-menu ul {
+        padding: 8px 24px;
+    }
+
+    .mobile-menu ul li {
+        padding-top: 10px;
+    }
+
+    .bar {
+        display: block;
+    }
+
+    .mobile-menu>div {
+        display: block;
+    }
+
+    .mobile-menu a {
+        color: #c5c5c5
+    }
+
+    .mobile-menu a:hover {
+        color: #fff;
+    }
+    
+    .dark .dark-con {
+        width: 100%;
+    }
+    .white-cover {
+        width: 100%;
+        top: 0;
+        left: 0;
+        transform: translate(140px, 50px);
+        text-align: center;
+        font-weight: bold;
+        font-size: 35px;
+        color: #000;
+    }
+    .cover {
+        width: 100%;
+        top: 0;
+        left: 0;
+        transform: translate(140px, 60px);
+        text-align: center;
+        font-weight: bold;
+        font-size: 35px;
+        color: white;
+    }
+    .watch6-cover {
+        top: 0;
+        left: 0;
+        transform: translate(10px, -250px);
+        text-align: center;
+        letter-spacing: -1px;
+        font-size: 22px;
+    }
+
+    .ipadair-cover {
+        top: 0;
+        left: 0;
+        transform: translate(120px, -350px);
+        text-align: center;
+        letter-spacing: -1px;
+        font-size: 28px;
+    }
+
+    .mac-cover {
+        top: 0;
+        left: 0;
+        transform: translate(120px, -400px);
+        text-align: center;
+        letter-spacing: -1px;
+        font-size: 28px;
+    }
+
+    .ipadpro-cover {
+        top: 0;
+        left: 0;
+        transform: translate(120px, -480px);
+        text-align: center;
+        letter-spacing: -1px;
+        font-size: 28px;
+    }
+
+    .macmini-cover {
+        top: 0;
+        left: 0;
+        transform: translate(130px, -350px);
+        text-align: center;
+        letter-spacing: -1px;
+        font-size: 28px;
+    }
+    .watchse-cover {
+        top: 0;
+        left: 0;
+        transform: translate(-5px, -370px);
+        text-align: center;
+        letter-spacing: -1px;
+        font-size: 28px;
+    }
+    .main-con {
+        width: 100%;
+    }
+
+    .product {
+        width: 100%;
+    }
+
+    .main-con ul {
+        flex-direction: column;
+    }
+
+    .container {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 300px;
+    }
+
+     .container>div>img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .coment {
+        width: 40%;
+    }
+
+    .footer {
+        width: 100%;
+    }
+
+    .footer-wrap {
+        width: 100%;
+    }
+
+    .foter-menu {
+        width: 100%;
+        margin-left: 15px;
+        flex-direction: column;
+        cursor: pointer;
+    }
+
+    .tab {
+        width: 95%;
+        font-size: 12px;
+        margin-top: 15px;
+        border-bottom: 1px solid #ccc;
+    }
+
+    .footer-bottom {
+        width: 100%;
+    }
+
+    .footer-middle>div {
+        margin-top: 10px;
+    }
+    .footer-middle {
+        flex-direction: column;
+    }
+    
+    .footer-bottom p {
+        width: 40%;
+    }
+    .middle a{
+        margin-right: 20px;
+    }
+    .line {
+        display: none;
+    }
+
+    .show {
+        display: none;
+    }
+}  

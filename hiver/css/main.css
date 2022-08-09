@@ -1,0 +1,511 @@
+#header{
+    width: 100%;
+    /* background-color: aqua; */
+    height: 196px;
+}
+.headerin{
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.headerTop .Top_left{
+    position: absolute;
+    top: 37px;
+    left: 0;
+}
+.headerTop .Top_left ul li{
+    float: left;
+    margin-right: 30px;
+    font-size: 12px;
+}
+.headerTop .Top_right{
+    position: absolute;
+    top: 37px;
+    right: 0;
+}
+.headerTop .Top_right ul li{
+    float: left;
+    font-size: 12px;
+    margin-left: 30px;
+}
+.headerBot .logo{
+    position: absolute;
+    top: 70px;
+    left: 0;
+}
+.headerBot .gnb{
+    position: absolute;
+    top: 98px;
+    left: 310px;
+    z-index: 300;
+    color: #527dbf;
+}
+
+.headerBot .gnb>li{
+    float: left;
+    margin-right: 20px;
+    position:relative;
+}
+
+.headerBot .gnb>li a{
+    font-size: 22px;
+    color: #000;
+}
+.headerBot .gnb>li:hover>a{
+    color: #527dbf;
+}
+ .headerBot .gnb>li a:hover{
+    color: #527dbf;
+}
+.headerBot .gnb>li:last-child{
+    margin-right: 0;
+}
+.headerBot .util{
+    position: absolute;
+    top: 98px;
+    right: 0;
+}
+.headerBot .util li{
+    float: left;
+    margin-left: 40px;
+}
+.headerBot{
+    position: relative;
+}
+/* gnb 서브메뉴*/
+.gnb .sub{
+    position:absolute;
+    top:0; left:0;
+    padding-top:30px;
+}
+.gnb .sub li a{
+    display: block;
+    width: 100px;
+    font-size: 16px;
+    padding-top: 10px;
+}
+.items ul{
+    width: 100px;
+    height: 100%;
+    margin-left: -25px;
+    display: none;
+    transition: all 0.5s;
+}
+.items ul li a{
+    width: 100px;
+    display: block;
+    height: 100%;
+    background-color: rgba(255,255,255,0.8);
+    text-align: center;
+}
+
+.items:hover ul{
+    display: block;
+}
+
+/* sub메뉴 끝*/
+/* header 끝 */
+
+ #mainVisual{
+    /* width: 100%;
+    height: 600px; */
+    position: relative;
+}
+/* .owl-next{
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    margin-right: -400px; 
+}
+*/
+/* .owl-prev{
+    position: absolute;
+    top: 50%;
+    /* transform: translateY(-50%);
+    left:400px;
+    
+}
+.owl-prev span{
+    display: block;
+    width: 150px;
+    height: 150px;
+    background: url(../img/pager_prev.png)no-repeat;
+}
+.owl-next{
+    position: absolute;
+    top: 50%;
+    /* transform: translateY(-50%);
+    right:400px;
+}  */
+.arrow{
+    width: 1200PX;
+    margin: 0 auto;
+    position: relative;
+}
+.next{
+    position: absolute;
+    top: 250px;
+    right: 0;
+}
+
+.prev{
+    position: absolute;
+    top: 250px;
+    left: 0;
+}
+
+/*mainVisual 끝*/
+
+.contin{
+    width: 1200px;
+    margin: 0 auto;
+}
+.cont1{
+    margin: 50px 0;
+    position: relative;
+}
+.cont1Top{
+    position: relative;
+}
+.cont1Top div{
+    float: left;
+}
+.tit h2{
+    font-size: 46px;
+    font-weight: bold;
+    color: #527dbf;
+}
+.cont1 >a{
+    display: block;
+    width: 150px;
+    height: 35px;
+    border: 1px solid #000;
+    margin: 50px auto;
+    line-height: 35px;
+    text-align: center;
+    font-size: 14px;
+}
+.cont1 .Kategorie_name{
+    font-weight: bold;
+}
+ .cont1  .plus{
+    background: url(../img/arrow.png) no-repeat 40px center/ 15px 15px;
+    padding-right: 15px;
+} 
+.cont1_Kategorie ul{
+    position: absolute;
+    top: 20px;
+    right: 0;
+}
+.cont1_Kategorie ul li{
+    float: left;
+    margin-left: 25px;
+}
+.cont1_Kategorie ul li a{
+    font-size: 18px;
+    color: #000;
+}
+.cont1_Kategorie ul li a:hover{
+    color: #527dbf;
+    text-decoration: underline;
+    text-decoration-color:#527dbf;
+    text-decoration-thickness: 3px;
+}
+.product{
+    margin-top: 10px;
+    
+}
+.product .product_list{
+    float: left;
+    width: 292.5px;
+    height: 380px;
+    overflow: hidden;
+    margin-right: 10px;
+    position: relative;
+    transition: all 0.4s;
+}
+.product .product_list:nth-child(4n){
+    margin-right: 0;
+}
+.hover{
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+.product .product_list:hover .hover{
+    opacity: 1;
+}
+.product .product_list:nth-child(4){
+    margin-left: 0;
+}
+.product .product_list img{
+    width: 100%;
+    height: auto;  
+    transition: all 0.6s;
+    
+}
+
+.product .product_list .store_name{
+    font-size: 13px;
+    color: #ccc;
+    margin-top: 10px;
+}
+.product .product_list .product_name{
+    font-size: 15px;
+}
+.product .product_list .price span{
+    color: #527dbf;
+}
+.btn{width: 100%;
+    margin-top: 10px;
+}
+.btn a{
+    width: 100px;
+    height: 45px;
+    line-height: 37px;
+    text-align: center;
+    margin-left: 530px;
+    border: 1px solid #000;
+}
+.pagerbox1{
+    position: absolute;
+    right: 0;
+    bottom: 50px;
+}
+.pagerbox1 div{
+    float: left;
+    margin-left: 5px;
+}
+.pager1 p{
+    display: block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    margin-top: 5px;
+    color:#000;
+    
+}
+.pager_prev1{
+    width: 30px;
+    height: 30px;
+    overflow: hidden;
+}
+.pager_prev1 img{
+    width: 100%;
+    height: auto;
+}
+.pager_next1{
+    width: 30px;
+    height: 30px;
+    overflow: hidden;
+}
+.pager_next1 img{
+    width: 100%;
+    height: auto;
+}
+/* cont1 끝*/
+.cont2{
+    margin-bottom: 50px;
+    position: relative;
+}
+
+
+.cont2 >a{
+    display: block;
+    width: 150px;
+    height: 35px;
+    border: 1px solid #000;
+    margin: 50px auto;
+    line-height: 35px;
+    text-align: center;
+    font-size: 14px;
+}
+.cont2 .Kategorie_name{
+    font-weight: bold;
+}
+ .cont2  .plus{
+    background: url(../img/arrow.png) no-repeat 40px center/ 15px 15px;
+    padding-right: 15px;
+} 
+.cont2Top{
+    position: relative;
+}
+.cont2Top div{
+    float: left;
+}
+.tit h2{
+    font-size: 46px;
+    font-weight: bold;
+    color: #527dbf;
+}
+
+.cont2_Kategorie ul{
+    position: absolute;
+    top: 20px;
+    right: 0;
+}
+.cont2_Kategorie ul li{
+    float: left;
+    margin-left: 25px;
+}
+.cont2_Kategorie ul li a{
+    font-size: 18px;
+    color: #000;
+}
+.cont2_Kategorie ul li a:hover{
+    color: #527dbf;
+    text-decoration: underline;
+    text-decoration-color:#527dbf;
+    text-decoration-thickness: 3px;
+}
+.pagerbox2{
+    position: absolute;
+    right: 0;
+    bottom: 50px;
+}
+.pagerbox2 div{
+    float: left;
+    margin-left: 5px;
+}
+.pager2 p{
+    display: block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    margin-top: 5px;
+    color:#000;
+    
+}
+.pager_prev2{
+    width: 30px;
+    height: 30px;
+    overflow: hidden;
+}
+.pager_prev2 img{
+    width: 100%;
+    height: auto;
+}
+.pager_next2{
+    width: 30px;
+    height: 30px;
+    overflow: hidden;
+}
+.pager_next2 img{
+    width: 100%;
+    height: auto;
+}
+/* container 끝 */
+
+#footer{
+    width: 100%;
+    height: 392px;
+    background-color: #f5f5f5;
+}
+.footerin{
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+.footerin div{
+    float: left;
+}
+.footer_left{
+    position: absolute;
+    top: 50px;
+    left: 0;
+}
+.footer_left .f_Logo{
+    margin-bottom: 20px;
+}
+.footer_left .p1{
+    font-size: 28px;
+    font-weight: bold;
+}
+.footer_left p span{
+    font-size: 15px;
+    font-weight: bold;
+    color: #000;
+}
+.footer_left p{
+    font-size: 14px;
+}
+.footer_left .time{
+    color: #666;
+}
+.footer_left ul{
+    margin-top: 20px;
+}
+.footer_left ul li{
+    float: left;
+}
+.footer_left ul li a{
+    margin-right:45px ;
+}
+.footer_left>a{
+    display: inline-block;
+    width: 120px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    border: 1px solid #ccc;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.footer_right{
+    position: absolute;
+    top: 50px;
+    right: 0;
+}
+.footer_right .line{
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: #ddd;
+    margin-top:30px;
+}
+
+
+.f_gnb li{
+    float: left;
+    margin-left: 30px;
+}
+.f_gnb li:last-child::after{
+    content: '';
+}
+.f_gnb li a{
+    color: #000;
+}
+.f_gnb li a:hover{
+    color:#4169E1;
+}
+.f_gnb li span{
+    font-weight: bold;
+}
+.f_gnb li:first-child{
+    margin-left: 0;
+}
+
+.copy{
+    margin-top: 20px;
+}
+.copy .mid{
+    margin: 10px 0 10px 0;
+}
+.copy .txt{
+    margin-bottom: 10px;
+}
+.copy span{
+    font-weight: bold;
+}
+.copy a{
+    font-size: 14px;
+    color: #c6c6c6;
+    text-decoration: underline;
+}
+
+
+
+
+

@@ -1,0 +1,1766 @@
+@font-face {
+    font-family: 'TTTogether';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/TTTogetherA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#header {
+    width: 100%;
+    height: 60px;
+    border-bottom: 1px solid #fff;
+}
+
+.headerin {
+    width: 100%;
+    position: relative;
+}
+
+.hd_icon {
+    display: none;
+}
+
+.hd_bot .logo {
+    position: absolute;
+    top: 20px;
+    left: 10px;
+}
+
+.hd_bot .logo img {
+    width: auto;
+    height: 30px;
+}
+
+.hd_bot .gnb {
+    display: none;
+}
+
+.lang {
+    display: none;
+}
+
+.openM {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #fff;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.mobile_menu {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    background-color: #000;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #fff;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.mgnb {
+    border-top: 1px solid #fff;
+    padding: 15px;
+    margin-top: 60px;
+    font-family: 'TTTogether';
+}
+
+.mgnb li {
+    padding: 10px 0
+}
+
+.mgnb li a {
+    font-size: 18px;
+    color: #fff;
+}
+
+.mgnb li a:hover {
+    color: #e2012d;
+}
+
+.mlink {
+    border-top: 1px solid#fff;
+    border-bottom: 1px solid #fff;
+    text-align: center;
+    /* display: flex; */
+}
+
+.mlink li {
+    padding: 10px;
+}
+
+.mlink li a {
+    color: #fff;
+    font-size: 16px;
+}
+
+.mlink li a:hover {
+    color: #e2012d;
+}
+
+.micon {
+    border-bottom: 1px solid #fff;
+    display: flex;
+    text-align: center;
+    padding: 10px;
+    padding-left: 20px;
+}
+
+.micon li {
+    text-align: center;
+    margin-left: 30px;
+}
+
+.micon li:nth-child(1) {
+    margin-left: 130px;
+}
+
+.micon li a {
+    font-size: 20px;
+    color: #fff;
+}
+
+.micon li a:hover {
+    color: #e2012d;
+}
+
+.mlang {
+    display: flex;
+    padding: 10px;
+
+}
+
+.mlang li {
+    margin-left: 50px;
+}
+
+.mlang li:nth-child(1) {
+    margin-left: 150px;
+}
+
+.mlang li a {
+    font-size: 14px;
+    color: #fff;
+
+}
+
+.mlang li a:hover {
+    color: #e2012d;
+}
+
+/* 모바일 메뉴 끝*/
+
+
+#mainVisual {
+    width: 100%;
+}
+
+.youtube {
+    width: 100%;
+    height: 315px;
+}
+
+.youtube iframe {
+    width: 100%;
+    height: 315px;
+}
+
+#collection {
+    width: 100%;
+    background-color: #fff;
+    position: relative;
+}
+
+#collection h2 {
+    font-size: 24px;
+    color: #000;
+    padding: 20px 10px;
+    font-family: 'TTTogether';
+}
+
+#collection h2 span {
+    color: #f00;
+    margin-right: 10px;
+}
+
+.collin {
+    /* width: 100%; */
+    position: relative;
+    padding-bottom: 40px;
+    position: relative;
+}
+
+
+
+.collin img {
+    width: 100%;
+    height: auto;
+
+}
+
+.collin .slick-dots {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.collin .slick-dots li {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.collin .slick-dots li button {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #ccc;
+    border: 0;
+    font-size: 0;
+
+}
+
+.collin .slick-dots li.slick-active button {
+    background-color: #e2012d;
+}
+
+.collin div:nth-child(2) {
+    display: none;
+}
+
+.collin div:nth-child(3) {
+    display: none;
+}
+
+.collin div:nth-child(4) {
+    display: none;
+}
+
+.collin div:nth-child(5) {
+    display: none;
+}
+
+.collin div:nth-child(6) {
+    display: none;
+}
+
+
+#collection .prv {
+    display: none;
+}
+
+#collection .nxt {
+    display: none;
+}
+
+/* .pager {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+
+}
+
+.pager li {
+    margin-left: 15px;
+}
+
+.pager li a {
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #ccc;
+    font-size: 0;
+}
+
+.pager li.on a {
+    background-color: #000;
+} */
+
+
+
+#teams {
+    width: 100%;
+
+}
+
+#teams h2 {
+    font-size: 24px;
+    color: #fff;
+    padding: 20px 10px;
+    font-family: 'TTTogether';
+
+}
+
+#teams span {
+    display: block;
+    width: 126px;
+    height: 5px;
+    background-color: #f00;
+    position: relative;
+    top: -17px;
+    left: 11px;
+}
+
+.teamsin {
+    position: absolute;
+}
+
+.teamsin .slick-dots {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    bottom: -20px;
+    margin-left: -50px;
+}
+
+.teamsin .slick-dots li {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.teamsin .slick-dots li button {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #fff;
+    border: 0;
+    font-size: 0;
+
+}
+
+.teamsin .slick-dots li.slick-active button {
+    background-color: #e2012d;
+}
+
+
+.teamsin div:nth-child(2) {
+    display: none;
+}
+
+.teamsin div:nth-child(3) {
+    display: none;
+}
+
+.teamsin div:nth-child(4) {
+    display: none;
+}
+
+.teamsin div:nth-child(5) {
+    display: none;
+}
+
+.teamsin div:nth-child(6) {
+    display: none;
+}
+
+.teamsin div:nth-child(7) {
+    display: none;
+}
+
+.teamsin div:nth-child(8) {
+    display: none;
+}
+
+.teamsin img {
+    width: 100%;
+    height: auto;
+}
+
+.teams_pager {
+    display: flex;
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.teams_pager li {
+    margin-right: 15px;
+}
+
+.teams_pager li a {
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #fff;
+    font-size: 0;
+}
+
+.teams_pager li.on a {
+    background-color: #e2012d;
+}
+
+.team_prv {
+    display: none;
+}
+
+.team_nxt {
+    display: none;
+}
+
+#latest {
+    width: 100%;
+    margin-top: 30px;
+    background-color: #121212;
+}
+
+#latest h2 {
+    color: #fff;
+    font-size: 24px;
+    padding: 20px 10px;
+    font-family: 'TTTogether';
+}
+
+#latest span {
+    display: block;
+    width: 107px;
+    height: 5px;
+    background-color: #f00;
+    position: relative;
+    top: -15px;
+    left: 12px;
+}
+
+.latestin {
+    width: 100%;
+    padding-bottom: 30px;
+}
+
+.latestin .la_youtube {
+    width: 100%;
+    height: 312px;
+    margin: 20px 0;
+
+}
+
+.latestin .la_youtube iframe {
+    width: 100%;
+    height: 310px;
+}
+
+.latestin .txt {
+    display: none;
+}
+
+#banner {
+    width: 100%;
+    background-color: #e2012d;
+}
+
+.bannerin {
+    /* width: 100%; */
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 10px;
+}
+
+.bannerin div {
+    width: 90px;
+    height: 90px;
+    margin: 0 auto;
+}
+
+.bannerin div img {
+    width: 100%;
+    height: auto;
+}
+
+#footer {
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+.footerin {
+    width: 100%;
+}
+
+.f_icon {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.f_icon li {
+    margin-right: 30px;
+    /* padding: 0 20px; */
+}
+
+.f_icon li:first-child {
+    margin-left: 30px;
+}
+
+.f_icon li a {
+    color: #fff;
+    font-size: 18px;
+}
+
+.f_icon li a:hover {
+    color: #e2012d;
+}
+
+/* .link {
+    display: flex;
+    justify-content: center;
+} */
+
+.link p {
+    color: #fff;
+    margin: 10px auto;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.link p:hover {
+    color: #e2012d;
+}
+
+.f_gnb {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+
+
+.f_gnb li a {
+    color: #fff;
+    font-size: 12px;
+}
+
+
+.f_gnb li a:hover {
+    color: #e2012d;
+}
+
+.copy {
+    color: #fff;
+    font-size: 12px;
+    padding: 10px;
+    text-align: center;
+
+}
+
+
+.copy::selection {
+    background-color: #e2012d;
+}
+
+.goTop {
+    width: 40px;
+    height: 40px;
+    background: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    line-height: 30px;
+    position: fixed;
+    bottom: 120px;
+    right: 20px;
+    cursor: pointer;
+    border-radius: 50%;
+    /* opacity: 0; */
+    /* transform: translateY(50px); */
+    /* transition: all 0.5s; */
+    display: none;
+}
+
+/* .goTop.on {
+    opacity: 1;
+    transform: translateY(0);
+} */
+
+
+/* 모바일 끝 */
+
+@media screen and (min-width:501px) and (min-width:768px) {
+    .youtube {
+        height: 450px;
+    }
+
+    .youtube iframe {
+        height: 450px;
+    }
+
+    .micon {
+        padding-left: 370px;
+    }
+
+    .mlang {
+        padding-left: 360px;
+    }
+
+    #collection h2 {
+        font-size: 28px;
+        color: #000;
+        padding: 30px 10px;
+    }
+
+    #collection h2 span {
+        color: #f00;
+        margin-right: 10px;
+    }
+
+    /* .collin {
+        display: flex;
+        justify-content: space-between;
+    } */
+
+    /* .collin div {
+        width: 49%;
+    } */
+
+    .collin img {
+        width: 100%;
+        height: auto;
+
+    }
+
+    .collin div:nth-child(2) {
+        display: block;
+    }
+
+    .pager {
+        margin-left: -10px;
+    }
+
+    .pager li:nth-child(4) {
+        display: none;
+    }
+
+    .pager li:nth-child(5) {
+        display: none;
+    }
+
+    .pager li:nth-child(6) {
+        display: none;
+    }
+
+    #teams h2 {
+        font-size: 28px;
+        color: #fff;
+        padding: 30px 10px;
+
+    }
+
+    #teams span {
+        width: 147px;
+    }
+
+    .teamsin {
+        padding-bottom: 30px;
+    }
+
+
+    .teamsin div:nth-child(2) {
+        display: block;
+    }
+
+    .teamsin img {
+        width: 100%;
+        height: auto;
+    }
+
+    .teams_pager li:nth-child(5) {
+        display: none;
+    }
+
+    .teams_pager li:nth-child(6) {
+        display: none;
+    }
+
+    .teams_pager li:nth-child(7) {
+        display: none;
+    }
+
+    .teams_pager li:nth-child(8) {
+        display: none;
+    }
+
+    #latest h2 {
+        font-size: 28px;
+        padding: 30px 10px;
+    }
+
+    #latest span {
+        width: 124px;
+        top: -25px;
+    }
+
+    .latestin {
+        width: 100%;
+        padding-bottom: 30px;
+    }
+
+    .latestin div {
+        margin-top: 20px;
+    }
+
+    .latest1 {
+        display: flex;
+        position: relative;
+        border: 1px solid #fff;
+    }
+
+    .latest1 div {
+        width: 50%;
+    }
+
+    .latest1 .la_youtube {
+        width: 50%;
+        height: 250px;
+    }
+
+    .latest1 .la_youtube iframe {
+        width: 100%;
+        height: 250px;
+    }
+
+    .latest1 .txt {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        padding: 0 20px;
+        transform: translateY(-50%);
+        margin-top: -5px;
+        margin-left: 30px;
+        text-align: center;
+        display: block;
+        width: auto;
+        color: #fff;
+        font-size: 14px;
+    }
+
+    .latest2 {
+        display: flex;
+        position: relative;
+        border: 1px solid #fff;
+    }
+
+    .latest2 div {
+        width: 50%;
+    }
+
+    .latest2 .la_youtube {
+        width: 50%;
+        height: 250px;
+    }
+
+    .latest2 .la_youtube iframe {
+        width: 100%;
+        height: 250px;
+    }
+
+    .latest2 .txt {
+        padding: 80px 20px;
+        text-align: center;
+        display: block;
+        color: #fff;
+        font-size: 14px;
+    }
+
+    .latest3 {
+        display: flex;
+        position: relative;
+        border: 1px solid #fff;
+    }
+
+    .latest3 div {
+        width: 50%;
+    }
+
+    .latest3 .la_youtube {
+        width: 50%;
+        height: 250px;
+    }
+
+    .latest3 .la_youtube iframe {
+        width: 100%;
+        height: 250px;
+    }
+
+    .latest3 .txt {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        padding: 0 10px;
+        transform: translateY(-50%);
+        margin-top: -10px;
+        padding-left: 50px;
+        text-align: center;
+        display: block;
+        width: auto;
+        color: #fff;
+        font-size: 14px;
+    }
+
+    .latest4 {
+        display: flex;
+        position: relative;
+        border: 1px solid #fff;
+    }
+
+    .latest4 div {
+        width: 50%;
+    }
+
+    .latest4 .la_youtube {
+        width: 50%;
+        height: 250px;
+    }
+
+    .latest4 .la_youtube iframe {
+        width: 100%;
+        height: 250px;
+    }
+
+    .latest4 .txt {
+        padding: 80px 10px;
+        text-align: center;
+        display: block;
+        color: #fff;
+        font-size: 14px;
+    }
+
+    .latest5 {
+        display: flex;
+        position: relative;
+        border: 1px solid #fff;
+    }
+
+    .latest5 div {
+        width: 50%;
+    }
+
+    .latest5 .la_youtube {
+        width: 50%;
+        height: 250px;
+    }
+
+    .latest5 .la_youtube iframe {
+        width: 100%;
+        height: 250px;
+    }
+
+    .latest5 .txt {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        padding: 0 20px;
+        transform: translateY(-50%);
+        margin-top: -10px;
+        margin-left: 140px;
+        text-align: center;
+        display: block;
+        width: auto;
+        color: #fff;
+        font-size: 15px;
+    }
+
+    .latest6 {
+        display: flex;
+        position: relative;
+        border: 1px solid #fff;
+    }
+
+    .latest6 div {
+        width: 50%;
+    }
+
+    .latest6 .la_youtube {
+        width: 50%;
+        height: 250px;
+    }
+
+    .latest6 .la_youtube iframe {
+        width: 100%;
+        height: 250px;
+    }
+
+    .latest6 .txt {
+        padding: 90px 20px;
+        text-align: center;
+        display: block;
+        color: #fff;
+        font-size: 15px;
+    }
+
+    .bannerin div {
+        width: 110px;
+        height: 110px;
+    }
+
+    .f_icon {
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+    .f_icon li {
+        margin-right: 30px;
+    }
+
+    .f_icon li:first-child {
+        margin-left: 0px;
+    }
+
+    .f_icon li a {
+        font-size: 26px;
+    }
+
+    .link {
+        display: flex;
+        justify-content: center;
+    }
+
+    .link p {
+        margin: 10px 80px;
+        font-size: 18px;
+    }
+
+    .f_gnb {
+        justify-content: center;
+    }
+
+    .f_gnb li {
+        margin-right: 30px;
+    }
+
+    .f_gnb li a {
+        color: #fff;
+        font-size: 16px;
+    }
+
+    .copy {
+        font-size: 14px;
+    }
+}
+
+/*태블릿 끝*/
+@media screen and (min-width:769px) and (min-width:1200px) {
+    #header {
+        height: 90px;
+        position: fixed;
+        background-color: #000;
+        z-index: 100;
+    }
+
+    .headerin {
+        width: 1200px;
+        margin: 0 auto;
+        position: relative;
+
+    }
+
+    .hd_icon {
+        display: block;
+        position: absolute;
+        top: 5px;
+        right: 0;
+    }
+
+    .mobile_menu {
+        display: none;
+    }
+
+    .hicon {
+        display: flex;
+    }
+
+    .hicon li {
+        margin-left: 25px;
+    }
+
+    .hicon li a {
+        color: #fff;
+        font-size: 18px;
+    }
+
+    .hicon li:hover a {
+        color: #e2012d;
+    }
+
+
+    .hd_bot .logo {
+        position: absolute;
+        top: 30px;
+        left: 0px;
+    }
+
+    .hd_bot .logo img {
+        width: auto;
+        height: 35px;
+    }
+
+    .hd_bot .gnb {
+        display: none;
+    }
+
+
+    .lang {
+        display: block;
+        display: flex;
+        position: absolute;
+        top: 40px;
+        right: 0;
+        font-family: 'TTTogether';
+    }
+
+    .lang li {
+        margin-left: 25px;
+    }
+
+    .lang li a {
+        color: #fff;
+    }
+
+    .lang li:hover a {
+        color: #e2012d;
+    }
+
+    .hd_bot .gnb {
+        display: block;
+        display: flex;
+        position: absolute;
+        top: 40px;
+        left: 150px;
+        font-family: 'TTTogether';
+
+    }
+
+
+
+    .hd_bot .gnb li {
+        margin-right: 30px;
+        transition: all 1s;
+    }
+
+    /* .hd_bot .gnb li:hover {
+     transform: scale(1.5);
+
+    } */
+
+
+    .hd_bot .gnb li a.theme {
+        color: #fff;
+        position: relative;
+
+    }
+
+    .hd_bot .gnb li a.over {
+        position: absolute;
+        top: -30px;
+        left: 0;
+        opacity: 1;
+        font-size: 14px;
+        color: #fff;
+        text-align: center;
+        animation-name: go;
+        /* 이름 지정 */
+        animation-duration: 1s;
+        /* 한 사이클이 몇초에 걸쳐서 일어날것인지 */
+        animation-iteration-count: infinite;
+        /* 몇번 반복될건지*/
+        animation-direction: alternate;
+        /* 애니메이션 종료 후 처음부터 진행할지 역방향으로 진행할지 */
+        animation-timing-function: ease-in-out;
+        /* 중간상태 속도조절 */
+    }
+
+    @keyframes go {
+        0% {
+            top: -35px;
+        }
+
+        100% {
+            top: -31px;
+        }
+
+    }
+
+    /* .hd_bot .gnb li:hover a.over {
+        opacity: 1;
+    } */
+
+    .hd_bot .gnb li a.over2 {
+        position: absolute;
+        top: 0;
+        left: 85px;
+        opacity: 0;
+        color: #fff;
+        font-size: 14px;
+        text-align: center;
+        opacity: 1;
+        animation-name: go;
+        animation-duration: 1s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+        animation-timing-function: ease-in-out;
+    }
+
+
+    .hd_bot .gnb li a.over3 {
+        position: absolute;
+        top: 0;
+        left: 195px;
+        color: #fff;
+        font-size: 14px;
+        text-align: center;
+        opacity: 1;
+        animation-name: go;
+        animation-duration: 1s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+        animation-timing-function: ease-in-out;
+    }
+
+    .hd_bot .gnb li a.over5 {
+        position: absolute;
+        top: 0;
+        left: 405px;
+        color: #fff;
+        font-size: 14px;
+        text-align: center;
+        opacity: 1;
+        animation-name: go;
+        animation-duration: 1s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+        animation-timing-function: ease-in-out;
+    }
+
+    .hd_bot .gnb li a.over7 {
+        position: absolute;
+        top: 0;
+        left: 605px;
+        color: #fff;
+        font-size: 14px;
+        text-align: center;
+        opacity: 1;
+        animation-name: go;
+        animation-duration: 1s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+        animation-timing-function: ease-in-out;
+    }
+
+
+
+    .hd_bot .gnb li a:first-child:hover {
+        color: #e2012d;
+        /* opacity: 0; */
+    }
+
+
+    .hd_bot .gnb li.on a {
+        color: #e2012d;
+    }
+
+
+    .openM {
+        display: none;
+    }
+
+    #mainVisual {
+        padding-top: 90px;
+    }
+
+    .youtube {
+        width: 100%;
+        height: 100vh;
+    }
+
+    .youtube iframe {
+        width: 100%;
+        height: 100vh;
+    }
+
+    #collection h2 {
+        font-size: 36px;
+        padding: 30px 20px;
+    }
+
+    .collin {
+        width: 1200px;
+        margin: 0 auto;
+        /* display: flex; */
+        position: relative;
+    }
+
+    .collin div {
+        /* width: 33.33%; */
+        margin-right: 10px;
+        /* overflow: hidden; */
+    }
+
+    .collin .slick-dots {
+        position: absolute;
+        bottom: 20px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .collin .slick-dots li {
+        display: inline-block;
+        margin: 0 5px;
+    }
+
+    .collin .slick-dots li button {
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background-color: #ccc;
+        border: 0;
+        font-size: 0;
+
+    }
+
+    .collin .slick-dots li.slick-active button {
+        background-color: #e2012d;
+    }
+
+
+
+
+    .collin img {
+        width: 100%;
+        height: auto;
+
+    }
+
+    .collin div:nth-child(2) {
+        display: block;
+    }
+
+    .collin div:nth-child(3) {
+        display: block;
+    }
+
+    .collin div:nth-child(4) {
+        display: none;
+    }
+
+    .collin div:nth-child(5) {
+        display: none;
+    }
+
+    .collin div:nth-child(6) {
+        display: none;
+    }
+
+    #collection .prv {
+        display: none;
+    }
+
+    #collection .nxt {
+        display: none;
+    }
+
+    .pager {
+        display: none;
+    }
+
+    #collection .prv {
+        display: block;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-left: -700px;
+        margin-top: 20px;
+        font-size: 35px;
+        cursor: pointer;
+    }
+
+    #collection .nxt {
+        display: none;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-left: 700px;
+        margin-top: 20px;
+        font-size: 35px;
+        cursor: pointer;
+    }
+
+
+    #teams {
+        position: relative;
+    }
+
+    #teams h2 {
+        font-size: 36px;
+        padding: 30px 20px;
+    }
+
+    #teams span {
+        width: 190px;
+        left: 20px;
+    }
+
+    .teamsin {
+        width: 1200px;
+        margin: 0 auto;
+        /* display: flex; */
+        position: relative;
+        padding: 30px;
+    }
+
+
+    .teamsin .slick-dots {
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        bottom: -10px;
+        margin-left: -80px;
+    }
+
+    .teamsin .slick-dots li {
+        display: inline-block;
+        margin: 0 5px;
+    }
+
+    .teamsin .slick-dots li button {
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background-color: #fff;
+        border: 0;
+        font-size: 0;
+
+    }
+
+    .teamsin .slick-dots li.slick-active button {
+        background-color: #e2012d;
+    }
+
+    .teamsin .slick-arrow {
+        border: 0;
+        background-color: transparent;
+        outline: none;
+        width: 30px;
+        height: 30px;
+        border-top: 5px solid #eee;
+        border-right: 5px solid #eee;
+        font-size: 0;
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    /* .teamsin .slick-prev {
+        left: 70px;
+        z-index: 10;
+        transform: rotate(-135deg);
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-left: -600px;
+    }
+
+    .teamsin .slick-next {
+        right: 70px;
+        transform: rotate(45deg);
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-left: 500px;
+    } */
+
+    /* .mainVisual .slick-dots {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 20px;
+
+    } */
+    .teamsin div {
+        /* width: 33.33%; */
+        margin-right: 10px;
+
+    }
+
+    .teamsin div:nth-child(2) {
+        display: block;
+    }
+
+    .teamsin div:nth-child(3) {
+        display: block;
+    }
+
+    .teamsin div:nth-child(4) {
+        display: none;
+    }
+
+    .teamsin div:nth-child(5) {
+        display: none;
+    }
+
+    .teamsin div:nth-child(6) {
+        display: none;
+    }
+
+    .teamsin div:nth-child(7) {
+        display: none;
+    }
+
+    .teamsin div:nth-child(8) {
+        display: none;
+    }
+
+    .team_prv {
+        display: none;
+        color: #fff;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-left: -700px;
+        margin-top: 20px;
+        font-size: 35px;
+        color: #ecba9c;
+        cursor: pointer;
+
+    }
+
+    .team_nxt {
+        display: none;
+        color: #fff;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-left: 700px;
+        margin-top: 20px;
+        font-size: 35px;
+        color: #ecba9c;
+        cursor: pointer;
+
+
+    }
+
+    .teams_pager {
+        display: none;
+    }
+
+
+    #latest h2 {
+        font-size: 36px;
+        padding: 30px 20px;
+    }
+
+    #latest span {
+        width: 163px;
+        left: 20px;
+    }
+
+    .latestin div {
+        margin-top: 30px;
+    }
+
+    .latestin {
+        width: 1200px;
+        margin: 0 auto;
+        padding-bottom: 30px;
+    }
+
+    .latestin .txt {
+        display: block;
+    }
+
+    .latest1 {
+        display: flex;
+        position: relative;
+        border: 1px solid #fff;
+    }
+
+
+    .latest1 .la_youtube {
+        width: 50%;
+        height: 350px;
+    }
+
+    .latest1 .la_youtube iframe {
+        width: 100%;
+        height: 350px;
+    }
+
+    .latest1 .txt {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        padding: 0 20px;
+        transform: translateY(-50%);
+        margin-top: -5px;
+        padding-left: 80px;
+        text-align: center;
+        display: block;
+        width: auto;
+        color: #fff;
+        font-size: 22px;
+    }
+
+    .latest2 {
+        display: flex;
+        position: relative;
+        border: 1px solid #fff;
+    }
+
+    .latest2 div {
+        width: 50%;
+    }
+
+    .latest2 .la_youtube {
+        width: 50%;
+        height: 350px;
+    }
+
+    .latest2 .la_youtube iframe {
+        width: 100%;
+        height: 350px;
+    }
+
+    .latest2 .txt {
+        padding: 100px 20px;
+        text-align: center;
+        display: block;
+        color: #fff;
+        font-size: 22px;
+        /* margin-top: 50px; */
+    }
+
+    .latest3 {
+        display: flex;
+        position: relative;
+        border: 1px solid #fff;
+    }
+
+    .latest3 div {
+        width: 50%;
+    }
+
+    .latest3 .la_youtube {
+        width: 50%;
+        height: 350px;
+    }
+
+    .latest3 .la_youtube iframe {
+        width: 100%;
+        height: 350px;
+    }
+
+    .latest3 .txt {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        padding: 0 10px;
+        transform: translateY(-50%);
+        margin-top: -10px;
+        /* margin-left: 40px; */
+        padding-left: 80px;
+        text-align: center;
+        display: block;
+        width: auto;
+        color: #fff;
+        font-size: 22px;
+    }
+
+    .latest4 {
+        display: flex;
+        position: relative;
+        border: 1px solid #fff;
+    }
+
+    .latest4 div {
+        width: 50%;
+    }
+
+    .latest4 .la_youtube {
+        width: 50%;
+        height: 350px;
+    }
+
+    .latest4 .la_youtube iframe {
+        width: 100%;
+        height: 350px;
+    }
+
+    .latest4 .txt {
+        padding: 120px 10px;
+
+        text-align: center;
+        display: block;
+        color: #fff;
+        font-size: 22px;
+    }
+
+    .latest5 {
+        display: flex;
+        position: relative;
+        border: 1px solid #fff;
+    }
+
+    .latest5 div {
+        width: 50%;
+    }
+
+    .latest5 .la_youtube {
+        width: 50%;
+        height: 350px;
+    }
+
+    .latest5 .la_youtube iframe {
+        width: 100%;
+        height: 350px;
+    }
+
+    .latest5 .txt {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        padding: 0 20px;
+        transform: translateY(-50%);
+        margin-top: -10px;
+        padding-left: 80px;
+        text-align: center;
+        display: block;
+        width: auto;
+        color: #fff;
+        font-size: 22px;
+    }
+
+    .latest6 {
+        display: flex;
+        position: relative;
+        border: 1px solid #fff;
+    }
+
+    .latest6 div {
+        width: 50%;
+    }
+
+    .latest6 .la_youtube {
+        width: 50%;
+        height: 350px;
+    }
+
+    .latest6 .la_youtube iframe {
+        width: 100%;
+        height: 350px;
+    }
+
+    .latest6 .txt {
+        padding: 110px 20px;
+        text-align: center;
+        display: block;
+        color: #fff;
+        font-size: 22px;
+    }
+
+    #banner {
+        height: 100px;
+    }
+
+    .bannerin {
+        width: 1200px;
+        margin: 0 auto;
+        flex-wrap: nowrap;
+    }
+
+    .bannerin div {
+        width: 130px;
+        height: 130px;
+        margin-right: 10px;
+    }
+
+    .footerin {
+        width: 1200px;
+        margin: 0 auto;
+        position: relative;
+    }
+
+    .footerin ul {
+        margin-bottom: 25px;
+    }
+
+    .f_icon {
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+        margin-left: -350px;
+    }
+
+    .f_icon li {
+        margin-right: 30px;
+
+    }
+
+    .f_icon li:first-child {
+        margin-left: 0px;
+    }
+
+    .f_icon li a {
+        font-size: 28px;
+    }
+
+    .link {
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        top: -5px;
+        left: 50%;
+        margin-left: -80px;
+    }
+
+    .link p {
+        margin-right: 5px;
+        font-size: 20px;
+
+    }
+
+    .f_gnb {
+        justify-content: center;
+        margin-left: 120px;
+    }
+
+    .f_gnb li {
+        margin-right: 30px;
+    }
+
+    .f_gnb li a {
+        color: #fff;
+        font-size: 20px;
+    }
+
+    .copy {
+        font-size: 16px;
+        margin-left: 70px;
+    }
+
+    .slick-track {
+        width: 100%;
+        margin: 0 atuo;
+    }
+
+}
+
+
+
+/* @keyframes go {
+    0% {
+        top: 30px;
+    }
+
+    100% {
+        top: 50px;
+    }
+} */
