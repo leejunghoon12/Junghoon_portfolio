@@ -746,6 +746,7 @@ ul {
 .street .title img {
     width: auto;
     height: 40px;
+    margin-top: 20px;
 }
 
 .street .introduce {
