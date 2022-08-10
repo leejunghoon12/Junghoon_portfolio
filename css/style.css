@@ -114,7 +114,8 @@ ul {
     width: 100%;
     height: 100vh;
     background-color: #bbdefb;
-    position: relative;
+    display: flex;
+    align-items: center;
 }
 
 #about .aboutin {
@@ -122,11 +123,6 @@ ul {
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-
 }
 
 .aboutin .left img {
@@ -141,11 +137,12 @@ ul {
 .aboutin .left dt {
     font-size: 26px;
     font-weight: bold;
+    margin-top: 34px;
 }
 
 .aboutin .left dd {
     font-size: 18px;
-    margin-top: 10px;
+    margin-top: 13px;
     font-weight: bold;
     font-family: 'GmarketSansMedium';
 }
@@ -155,7 +152,7 @@ ul {
 }
 
 .aboutin .right div:first-child {
-    margin-top: 0;
+    margin-top: -10px;
 }
 
 .aboutin .right>span {
@@ -163,17 +160,17 @@ ul {
     width: 100%;
     height: 5px;
     background-color: #1d64a6;
-    margin-top: 30px;
+    margin: 65px 0;
 }
 
 .aboutin .right h3 {
     font-size: 30px;
-    margin-bottom: 18px;
+    margin-bottom: 22px;
 }
 
 .aboutin .right p {
     font-size: 16px;
-    margin-top: 18px;
+    margin-top: 20px;
     font-family: 'GmarketSansMedium';
 }
 
@@ -191,10 +188,17 @@ ul {
 
 .aboutin .right .skill ul li {
     text-align: center;
+    margin-top: 30px;
+}
+
+.demo-1 {
+    margin-left: 10px;
 }
 
 .t1 {
     height: 100vh;
+    display: flex;
+    align-items: center;
 }
 
 .t1in {
@@ -205,7 +209,6 @@ ul {
 .t1 .title {
     display: flex;
     justify-content: space-between;
-    padding-top: 150px;
     font-family: 'GmarketSansBold';
 }
 
@@ -296,6 +299,11 @@ ul {
     font-size: 16px;
     margin-right: 15px;
     font-weight: bold;
+    transition: all 0.5s;
+}
+
+.introduce .t1_right button a:hover {
+    background-color: #e21e2f;
 }
 
 .introduce .t1_right button a:last-child {
@@ -306,6 +314,8 @@ ul {
 .nike {
     height: 100vh;
     background-color: #bbdefb;
+    display: flex;
+    align-items: center;
 }
 
 .nikein {
@@ -316,7 +326,6 @@ ul {
 .nike .title {
     display: flex;
     justify-content: space-between;
-    padding-top: 150px;
     font-family: 'GmarketSansBold';
 }
 
@@ -382,13 +391,13 @@ ul {
 }
 
 .introduce .nike_left>p {
-    margin-top: 80px;
+    margin-top: 50px;
     font-size: 18px;
     font-family: 'GmarketSansBold';
 }
 
 .introduce .nike_left button {
-    margin-top: 30px;
+    margin-top: 25px;
     background-color: transparent;
     border: none;
 }
@@ -406,6 +415,11 @@ ul {
     margin-right: 15px;
     margin-top: 65px;
     font-weight: bold;
+    transition: all 0.5s;
+}
+
+.introduce .nike_left button a:hover {
+    background-color: #e21e2f;
 }
 
 .introduce .nike_left button a:last-child {
@@ -415,6 +429,8 @@ ul {
 /*******************************나이키 끝**************************/
 .kolon {
     height: 100vh;
+    display: flex;
+    align-items: center;
 }
 
 .kolonin {
@@ -425,7 +441,6 @@ ul {
 .kolon .title {
     display: flex;
     justify-content: space-between;
-    padding-top: 150px;
     font-family: 'GmarketSansBold';
 }
 
@@ -519,16 +534,21 @@ ul {
     font-size: 16px;
     margin-right: 15px;
     font-weight: bold;
+    transition: all 0.5s;
 }
 
-.introduce .kolon_right button a:last-child {
-    width: 180px;
+.introduce .kolon_right button a:hover {
+    background-color: #e21e2f;
+    color: #fff;
 }
+
 
 /***********************************코오롱끝********************/
 .hiver {
     height: 100vh;
     background-color: #bbdefb;
+    display: flex;
+    align-items: center;
 }
 
 .hiverin {
@@ -539,7 +559,6 @@ ul {
 .hiver .title {
     display: flex;
     justify-content: space-between;
-    padding-top: 150px;
     font-family: 'GmarketSansBold';
 }
 
@@ -624,15 +643,19 @@ ul {
     margin-right: 15px;
     margin-top: 65px;
     font-weight: bold;
+    transition: all 0.5s;
 }
 
-.introduce .hiver_left button a:last-child {
-    width: 195px;
+.introduce .hiver_left button a:hover {
+    background-color: #e21e2f;
 }
+
 
 /*********************hiver 끝**********************/
 .apple {
     height: 100vh;
+    display: flex;
+    align-items: center;
 }
 
 .applein {
@@ -643,14 +666,12 @@ ul {
 .apple .title {
     display: flex;
     justify-content: space-between;
-    padding-top: 150px;
     font-family: 'GmarketSansBold';
 }
 
 .apple .title img {
     width: auto;
-    height: 90px;
-    margin-top: -20px;
+    height: 70px;
 }
 
 .apple .title h2 {
@@ -715,12 +736,19 @@ ul {
     margin-right: 15px;
     font-weight: bold;
     margin-top: 70px;
+    transition: all 0.5s;
+}
+
+.introduce .apple_right button a:hover {
+    background-color: #e21e2f;
 }
 
 /************************apple 끝*********************/
 .street {
     height: 100vh;
     background-color: #bbdefb;
+    display: flex;
+    align-items: center;
 }
 
 .streetin {
@@ -731,7 +759,6 @@ ul {
 .street .title {
     display: flex;
     justify-content: space-between;
-    padding-top: 150px;
     font-family: 'GmarketSansBold';
 }
 
@@ -803,11 +830,18 @@ ul {
     margin-right: 15px;
     font-weight: bold;
     margin-top: 60px;
+    transition: all 0.5s;
+}
+
+.introduce .street_left button a:hover {
+    background-color: #e21e2f;
 }
 
 /***********************street 끝***************************/
 .appdesign {
     height: 100vh;
+    display: flex;
+    align-items: center;
 }
 
 .appdesignin {
@@ -818,7 +852,6 @@ ul {
 .appdesign .title {
     display: flex;
     justify-content: space-between;
-    padding-top: 150px;
     font-family: 'GmarketSansBold';
 }
 
@@ -903,6 +936,11 @@ ul {
     margin-right: 15px;
     font-weight: bold;
     margin-top: 30px;
+    transition: all 0.5s;
+}
+
+.introduce .gym_right button a:hover {
+    background-color: #e21e2f;
 }
 
 /********************appdesign 끝******************/
@@ -974,10 +1012,16 @@ ul {
     right: 50px;
     display: none;
     cursor: pointer;
+    transition: all 0.5s;
+}
+
+.goTop:hover {
+    background-color: #e21e2f;
 }
 
 .goTop .fa-arrow-up {
     font-size: 35px;
     line-height: 50px;
     color: #fff;
+
 }

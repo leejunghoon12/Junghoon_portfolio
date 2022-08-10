@@ -15,6 +15,8 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="js/jquery-3.6.0.min.js"></script>
     <script src="js/jquery.mousewheel.min.js"></script>
+    <script src="js/donutty-jquery.js"></script>
+    <script src="js/jquery.circlechart.js"></script>
     <script src="js/progress.js"></script>
     <script src="js/goTop.js"></script>
 
@@ -96,46 +98,25 @@
                         <h3>Skill</h3>
                         <ul>
                             <li>Html<br>
-                                <svg class="radial-progress" data-percentage="90" viewBox="0 0 80 80">
-                                    <circle class="incomplete" cx="40" cy="40" r="35"></circle>
-                                    <circle class="complete" cx="40" cy="40" r="35"
-                                        style="stroke-dashoffset: 39.58406743523136;"></circle>
-                                    <text class="percentage" x="50%" y="57%"
-                                        transform="matrix(0, 1, -1, 0, 80, 0)">90%</text>
-                                </svg>
+                                <div class="demo-1" data-percent="90"></div>
+
                             </li>
                             <li>CSS<br>
-                                <svg class="radial-progress" data-percentage="90" viewBox="0 0 80 80">
-                                    <circle class="incomplete" cx="40" cy="40" r="35"></circle>
-                                    <circle class="complete" cx="40" cy="40" r="35"
-                                        style="stroke-dashoffset: 39.58406743523136;"></circle>
-                                    <text class="percentage" x="50%" y="57%"
-                                        transform="matrix(0, 1, -1, 0, 80, 0)">90%</text>
-                                </svg>
+                                <div class="demo-1" data-percent="90"></div>
+
                             </li>
-                            <li>JAVASCRIPT<br>
-                                <svg class="radial-progress" data-percentage="65" viewBox="0 0 80 80">
-                                    <circle class="incomplete" cx="40" cy="40" r="35"></circle>
-                                    <circle class="complete" cx="40" cy="40" r="35"
-                                        style="stroke-dashoffset: 39.58406743523136;"></circle>
-                                    <text class="percentage" x="50%" y="57%"
-                                        transform="matrix(0, 1, -1, 0, 80, 0)">65%</text>
-                                </svg>
+                            <li>JS/jQuery<br>
+                                <div class="demo-1" data-percent="65"></div>
+
                             </li>
-                            <li>Photoshop<br> <svg class="radial-progress" data-percentage="50" viewBox="0 0 80 80">
-                                    <circle class="incomplete" cx="40" cy="40" r="35"></circle>
-                                    <circle class="complete" cx="40" cy="40" r="35"
-                                        style="stroke-dashoffset: 39.58406743523136;"></circle>
-                                    <text class="percentage" x="50%" y="57%"
-                                        transform="matrix(0, 1, -1, 0, 80, 0)">50%</text>
-                                </svg></li>
-                            <li>Illustrator<br> <svg class="radial-progress" data-percentage="50" viewBox="0 0 80 80">
-                                    <circle class="incomplete" cx="40" cy="40" r="35"></circle>
-                                    <circle class="complete" cx="40" cy="40" r="35"
-                                        style="stroke-dashoffset: 39.58406743523136;"></circle>
-                                    <text class="percentage" x="50%" y="57%"
-                                        transform="matrix(0, 1, -1, 0, 80, 0)">50%</text>
-                                </svg></li>
+                            <li>Photoshop<br>
+                                <div class="demo-1" data-percent="50"></div>
+
+                            </li>
+                            <li>Illustrator<br>
+                                <div class="demo-1" data-percent="50"></div>
+
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -166,8 +147,8 @@
                             서브페이지를<br> 겸하여 반응형 작업 및 클론코딩을 해보았습니다.
                         </p>
                         <button>
-                            <a href="t1/index.html">보러가기</a>
-                            <a href="http://t1.gg">T1 사이트 보러가기</a>
+                            <a href="t1/index.html" target="_blank">보러가기</a>
+                            <a href="http://t1.gg" target="_blank">T1 사이트 보러가기</a>
                         </button>
                     </div>
                 </div>
@@ -191,8 +172,8 @@
                             알게되는게 많다고 느껴져 클론코딩을 해보았습니다.
                         </p>
                         <button>
-                            <a href="nike/index.html">보러가기</a>
-                            <a href="https://www.nike.com/kr/ko_kr/">Nike 사이트 보러가기</a>
+                            <a href="nike/index.html" target="_blank">보러가기</a>
+                            <a href="https://www.nike.com/kr/ko_kr/" target="_blank">Nike 사이트 보러가기</a>
                         </button>
                     </div>
                     <div class="nike_right">
@@ -223,7 +204,7 @@
                             딱보기 쉽게 정리도 해보았고, 반응형으로<br>작업을 해보았습니다
                         </p>
                         <button>
-                            <a href="kolon/index.html">보러가기</a>
+                            <a href="kolon/index.html" target="_blank">보러가기</a>
                         </button>
                     </div>
                 </div>
@@ -247,7 +228,7 @@
                             콘텐츠들을 기본적인 구조는 비슷하게 하면서 내용들을 한눈에 보기<br> 좋게 리디자인 해보았습니다.
                         </p>
                         <button>
-                            <a href="hiver/index.html">보러가기</a>
+                            <a href="hiver/index.html" target="_blank">보러가기</a>
                         </button>
                     </div>
                     <div class="hiver_right">
@@ -275,7 +256,7 @@
                             생각이 들어서 퍼블리셔라는 직업을 알게되어서<br> 퍼블리셔쪽으로 직업을 희망하게되어서 연습삼아 클론코딩을 해보았습니다.
                         </p>
                         <button>
-                            <a href="apple/index.html">보러가기</a>
+                            <a href="apple/index.html" target="_blank">보러가기</a>
                         </button>
                     </div>
                 </div>
@@ -297,7 +278,7 @@
                             생각이 들어서 퍼블리셔라는 직업을 알게되어서<br> 퍼블리셔쪽으로 직업을 희망하게되어서 연습삼아 클론코딩을 해보았습니다.
                         </p>
                         <button>
-                            <a href="shopping/index.html">보러가기</a>
+                            <a href="shopping/index.html" target="_blank">보러가기</a>
                         </button>
                     </div>
                     <div class="street_right">
@@ -330,7 +311,7 @@
                             기록치를 달성할수 있지않을까<br> 생각해서 기록 기능도 디자인 해보았습니다.
                         </p>
                         <button>
-                            <a href="UIUX/cording/index.html">보러가기</a>
+                            <a href="UIUX/cording/index.html" target="_blank">보러가기</a>
                         </button>
                     </div>
                 </div>
@@ -455,6 +436,10 @@
                 }
             }
         }
+    </script>
+
+    <script>
+        $('.demo-1').percentcircle();
     </script>
 
 </body>
