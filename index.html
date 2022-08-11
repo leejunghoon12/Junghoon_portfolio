@@ -8,7 +8,6 @@
     <title>정훈의 포트폴리오</title>
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/progress.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <script src="https://kit.fontawesome.com/f1d986bebb.js" crossorigin="anonymous"></script>
@@ -17,7 +16,7 @@
     <script src="js/jquery.mousewheel.min.js"></script>
     <script src="js/donutty-jquery.js"></script>
     <script src="js/jquery.circlechart.js"></script>
-    <script src="js/progress.js"></script>
+    <script src="js/underline.js"></script>
     <script src="js/goTop.js"></script>
 
 
@@ -27,8 +26,13 @@
 
     <div id="wrap">
         <ul class="gnb">
-            <li class="on"><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
+            <li class="on">
+                <a href="#">Home</a>
+                <span></span>
+            </li>
+            <li>
+                <a href="#">About</a>
+            </li>
             <li><a href="#">T1</a></li>
             <li><a href="#">Nike</a></li>
             <li><a href="#">Kolon</a></li>
@@ -90,7 +94,7 @@
                         </p>
                         <p>
                             2011.03 ~ 2014.02<br>
-                            <span>부산정보고 사이버정보통신과 졸업</span>
+                            <span>부산정보고 사이버정보통신반 졸업</span>
                         </p>
                     </div>
                     <span></span>
@@ -436,11 +440,19 @@
                 }
             }
         }
-    </script>
 
-    <script>
+        ////////////////////underline/////////////////
+        $(".gnb li").linkUnderlineAnim({
+            "speed": 300,
+            "color": "#e21e2f",
+            "thickness": 3,
+            "distance": 5
+        });
+
+        /////////////////////////skill circle///////////////////////////
         $('.demo-1').percentcircle();
     </script>
+
 
 </body>
 
