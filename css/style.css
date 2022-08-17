@@ -135,6 +135,7 @@ body:not(.hidden).reveal #loader>div {
 
 .typing ul li {
     display: block;
+
 }
 
 .typing ul li.on {
@@ -182,6 +183,7 @@ body:not(.hidden).reveal #loader>div {
 #home .p ul li:nth-child(1) {
     animation-delay: 0.35s;
     color: #1d64a6;
+
 }
 
 #home .p ul li:nth-child(2) {
