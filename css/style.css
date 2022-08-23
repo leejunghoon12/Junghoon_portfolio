@@ -96,14 +96,13 @@ body:not(.hidden).reveal #loader>div {
     font-size: 24px;
     font-weight: bold;
     font-family: 'Audiowide', cursive;
+    transition: all 0.5s;
+
 }
 
 .gnb li:hover a {
-    transition: all 0.5s;
     letter-spacing: 3px;
 }
-
-
 
 .gnb li.on a {
     color: #e21e2f;
@@ -300,6 +299,7 @@ body:not(.hidden).reveal #loader>div {
     width: auto;
     height: 400px;
 }
+
 
 .aboutin .left dl {
     font-family: 'GmarketSansBold';
@@ -756,9 +756,50 @@ body:not(.hidden).reveal #loader>div {
     margin-top: 30px;
 }
 
-.introduce .hiver_right img {
+
+.introduce img {
     width: auto;
-    height: 400px;
+    height: 600px;
+
+}
+
+.hiver_right {
+    position: relative;
+    overflow: hidden;
+}
+
+.hiver_img {
+    width: 574px;
+    height: 325px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: -75px;
+    margin-left: 59px;
+    overflow: hidden;
+}
+
+.hiver_img>img {
+    width: 100%;
+    margin-left: 0px;
+    object-position: top;
+    object-fit: cover;
+}
+
+.hiver_img>img:hover {
+    animation: scroll 5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes scroll {
+    0% {
+        object-position: top;
+    }
+
+    100% {
+        object-position: bottom;
+    }
 }
 
 .introduce .hiver_left .text p {
@@ -825,6 +866,7 @@ body:not(.hidden).reveal #loader>div {
     background-color: #e21e2f;
     box-shadow: 0 0 0 0 #e21e2f;
 }
+
 
 
 /*********************hiver 끝**********************/
