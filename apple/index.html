@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 
 <head>
     <meta charset="UTF-8">
@@ -195,8 +195,9 @@
                 </p>
             </div>
             <div class="line" style="width: 1200px; margin: 0 auto; border-bottom: 1px solid #ccc; "></div>
-            <div class="foter-menu" style="display: flex; justify-content:space-between; margin-top:15px; margin-bottom: 20px;">
-                <div class="tab" >
+            <div class="foter-menu"
+                style="display: flex; justify-content:space-between; margin-top:15px; margin-bottom: 20px;">
+                <div class="tab">
                     <span>쇼핑 및 알아보기</span>
                     <div class="show">
                         <div>
@@ -228,7 +229,7 @@
                     </div>
                     <div class="tab" style="margin-top: 30px;">
                         <span>계정</span>
-                        <div  class="show">
+                        <div class="show">
                             <ul>
                                 <li><a href="#">Apple ID 관리</a></li>
                                 <li><a href="#">Apple Store 계정</a></li>
@@ -239,8 +240,8 @@
                 </div>
                 <div>
                     <div class="tab">
-                       <span>Apple Store</span>
-                        <div  class="show">
+                        <span>Apple Store</span>
+                        <div class="show">
                             <ul>
                                 <li><a href="#">매장 찾기</a></li>
                                 <li><a href="#">온라인에서 쇼핑하기</a></li>
@@ -260,7 +261,7 @@
                 <div>
                     <div class="tab">
                         <span>비즈니스</span>
-                        <div  class="show">
+                        <div class="show">
                             <ul>
                                 <li><a href="#">Apple과 비즈니스</a></li>
                                 <li><a href="#">비즈니스를 위한 제품 쇼핑하기</a></li>
@@ -281,7 +282,7 @@
                 <div>
                     <div class="tab">
                         <span>Apple의 가치관</span>
-                        <div  class="show">
+                        <div class="show">
                             <ul>
                                 <li><a href="#">손쉬운 사용</a></li>
                                 <li><a href="#">환경</a></li>
@@ -306,11 +307,12 @@
                 </div>
             </div>
             <div class="footer-bottom" style="width: 1200px; margin: 0 auto; ">
-                <p  style=" margin-bottom: 15px; color: #999999;">
+                <p style=" margin-bottom: 15px; color: #999999;">
                     다양한 쇼핑 방법: <a href="">Apple Store를 방문</a>하거나, <a href="">리셀러</a>를 찾아보거나, 080-330-8877번으로 전화하세요.
                 </p>
                 <div class="line" style="border-bottom: 1px solid #ccc;"></div>
-                <div class="footer-middle" style="display: flex; justify-content: space-between; font-size: 12px; margin-top: 10px;">
+                <div class="footer-middle"
+                    style="display: flex; justify-content: space-between; font-size: 12px; margin-top: 10px;">
                     <div class="left" style="color: #999999;">
                         Copyright © 2021 Apple Inc. 모든 권리 보유.
                     </div>
@@ -336,14 +338,15 @@
     </div>
     <!-- footer -->
 </body>
-    <script>
-        $(".tab").click(function(){
-            if($(this).find(".show").is(":visible")){
-                $(this).find(".show").slideUp();
-            }
-            else{
-                $(this).find(".show").slideDown();
-            }
-        })
-    </script>
+<script>
+    $(".tab").click(function () {
+        if ($(this).find(".show").is(":visible")) {
+            $(this).find(".show").slideUp();
+        }
+        else {
+            $(this).find(".show").slideDown();
+        }
+    })
+</script>
+
 </html>
